@@ -1,0 +1,329 @@
+{
+  "main": {
+    "id": "265a9f874c914bcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a4a568a13a8aea0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e77b6bd8473f10d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "recursos/Dopamina y Estudio  Guía Completa para Optimizar la Motivación y la Concentración.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dopamina y Estudio  Guía Completa para Optimizar la Motivación y la Concentración"
+            }
+          },
+          {
+            "id": "9eec84a279070f79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registro de Tareas/cosas-por-hacer.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cosas-por-hacer"
+            }
+          },
+          {
+            "id": "2ffb47c999a5f99d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/daily-note.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "daily-note"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5fdc5c35d66fb878",
+    "type": "split",
+    "children": [
+      {
+        "id": "81eac6afca8195b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dffc32a6acd1fbb4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "41b438332b57b0d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "bb61f493d0263527",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "right": {
+    "id": "57d150a157879ac8",
+    "type": "split",
+    "children": [
+      {
+        "id": "021b4692fe9cd076",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e79a98200737cc2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Registro de Tareas/cosas-por-hacer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de cosas-por-hacer"
+            }
+          },
+          {
+            "id": "af8ce28b213c74ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Registro de Tareas/cosas-por-hacer.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de cosas-por-hacer"
+            }
+          },
+          {
+            "id": "19de83c475172b71",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "b8c6e41778026d99",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "875d08a3b2d1684b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Cola de notas a revisar"
+            }
+          },
+          {
+            "id": "419f8e9c3168f284",
+            "type": "leaf",
+            "state": {
+              "type": "progress-tracker",
+              "state": {},
+              "icon": "bar-chart-horizontal",
+              "title": "Task progress bar"
+            }
+          },
+          {
+            "id": "79034d893b60b39b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "45d4c9f52308614f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "57ca64f835efe8d5",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "20cc91f4eeb8e710",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2b7c525cf40cef9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 469.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-spaced-repetition:Revisar Tarjetas": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "audio-recorder:Iniciar/Detener la grabación": false,
+      "obisidian-note-linker:Note Linker": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "voice:Voice read text": false,
+      "progress-tracker:Progress Tracker": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9eec84a279070f79",
+  "lastOpenFiles": [
+    "desktop.ini",
+    "recursos/Dopamina y Estudio  Guía Completa para Optimizar la Motivación y la Concentración.md",
+    "investigaciones/dopamina.md",
+    "daily-notes/2026-04-13 - Dopamina.md",
+    "investigaciones/Corriente Eléctrica.md",
+    "daily-notes/2026-04-12 - onda EM.md",
+    "daily-notes/2026-04-18 - onda EM.md",
+    "templates/daily-note.md",
+    "Registro de Tareas/cosas-por-hacer.md",
+    "daily-notes/2026-04-18 - palabras clave onda EM.md",
+    "investigaciones/preguntas-clave-onda-electromagnetica.md",
+    "investigaciones/Fotones Virtuales.md",
+    "investigaciones/RFC.md",
+    "investigaciones/Onda Electromagnética.md",
+    "templates/proyecto.md",
+    "CLAUDE.md",
+    "Bienvenido.md",
+    "recursos/Dietas mas saludables para el Cerebro.md",
+    "Sin nombre",
+    "recursos/Qué cambios en mi entorno o hábitos pueden ayudarme a vencer la procrastinación.md",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/agenda-default.base",
+    "2026-04-18 - onda EM.md",
+    "daily-notes/Resumen de Corriente Eléctrica.md",
+    "imagenes/Nota palabras clave onda electromagnética.jpg",
+    "imagenes/Sin confirmar 515249.crdownload",
+    "imagenes/Nota onda electromagnetica.jpg",
+    "imagenes/Sin confirmar 785693.crdownload",
+    "imagenes/Nota_ onda electromagnética.jpg",
+    "imagenes/Sin confirmar 448058.crdownload",
+    "investigaciones/Señalización Diferencial.md",
+    "Registro de Tareas",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "recursos/Ondas electromagnéticas - naturaleza, historia y frontera tecnológica.md",
+    "Tecnicas de Memorizacion/Método Cornell de Toma de Apuntes Fundamentos, Estructura e Implementación.md",
+    "recursos/Investigación Onda Electromagnética Universitaria - gemini.md",
+    "recursos/ondas-electromagneticas-ppxty.md",
+    "imagenes/cornell_2.png",
+    "imagenes/cornell_1.png",
+    "imagenes/Red Lan.png",
+    "imagenes/Proceso completo de codificación 4B-5B_MLT-3 en 100BASE-TX Fast Ethernet.png",
+    "imagenes/campo-electrico-magnetico-fondo-gris.jpg",
+    "imagenes/nota_mlt3.jpg.png",
+    "imagenes/mlt3.png",
+    "Sin título.canvas"
+  ]
+}
