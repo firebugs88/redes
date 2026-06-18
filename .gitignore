@@ -1,0 +1,15 @@
+# Obsidian workspace / cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+.trash/
+.DS_Store
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Node / plugin dev
+node_modules/
