@@ -5,7 +5,7 @@ fecha: 2026-04-09
 relevancia: alta
 dominio: física / electromagnetismo
 review-count: 1
-ultimo-review: 2026-06-15
+ultimo-review: 2026-06-20
 next-review: 2026-06-18
 nivel-retencion: 1
 ---

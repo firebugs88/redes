@@ -16,10 +16,13 @@ Este mapa centraliza la evolución y los protocolos de las redes de datos, desde
 - [[fast-ethernet-ieee-802-3u|Fast Ethernet (IEEE 802.3u)]]
 - [[rfc|Documentos RFC]]
 
+## 🏛 Modelos de Referencia
+- [[modelo-osi|Modelo OSI — 7 Capas]]
+- [[modelo-tcp-ip|Modelo TCP/IP]]
+
 ## 🌐 Arquitectura de Internet
 - [[internet|Historia del Internet]]
 - [[nsfnet|NSFNET (El sucesor civil)]]
-- [[modelo-tcp-ip|Modelo TCP/IP]]
 
 ---
 [[000 Home MOC|⬅️ Volver al Inicio]]
