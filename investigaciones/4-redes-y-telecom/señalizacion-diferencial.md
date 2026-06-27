@@ -4,10 +4,10 @@ fuente: Estudio propio (señalización eléctrica en redes)
 fecha: 2026-04-12
 relevancia: alta
 dominio: física / redes / capa física
-review-count: 4
-ultimo-review: 2026-06-01
-next-review: 2026-06-28
-nivel-retencion: 0
+review-count: 1
+ultimo-review: 2026-06-27
+next-review: 2026-07-04
+nivel-retencion: 1
 tags:
   - research
   - tema/redes
@@ -80,11 +80,9 @@ Receptor diferencial           ← lee V_diff, ignora V_cm
 
 | # | Fecha | ¿Recordé bien? | Ajuste |
 |---|-------|-----------------|--------|
-| 1 | 2026-06-04 | ✅ / ⚠️ / ❌ | |
-| 2 | 2026-06-06 | ✅ / ⚠️ / ❌ | |
-| 3 | 2026-06-10 | ✅ / ⚠️ / ❌ | |
-| 4 | 2026-06-17 | ✅ / ⚠️ / ❌ | |
-| 5 | 2026-07-03 | ✅ / ⚠️ / ❌ | |
+| 1 (Día 1)  | 2026-06-27 | ✅ | Reinicio desde Día 1 tras hueco largo |
+| 2 (Día 7)  | 2026-07-04 | ✅ / ⚠️ / ❌ | |
+| 3 (Día 30) | 2026-07-27 | ✅ / ⚠️ / ❌ | |
 
 ---
 

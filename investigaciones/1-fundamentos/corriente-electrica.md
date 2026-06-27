@@ -4,10 +4,10 @@ fuente: Estudio propio (fundamentos, historia y aplicaciones)
 fecha: 2026-04-09
 relevancia: alta
 dominio: física / electromagnetismo
-review-count: 2
+review-count: 1
 ultimo-review: 2026-06-27
-next-review: 2026-06-27
-nivel-retencion: 2
+next-review: 2026-07-04
+nivel-retencion: 1
 ---
 ![[corriente-electrica.png]]
 
@@ -798,11 +798,9 @@ Analogía: Piedras o estrechamientos dentro de la tubería.
 
 | #   | Fecha      | ¿Recordé bien? | Ajuste |
 | --- | ---------- | -------------- | ------ |
-| 1   | 2026-06-04 | ✅ / ⚠️ / ❌     |        |
-| 2   | 2026-06-06 | ✅ / ⚠️ / ❌     |        |
-| 3   | 2026-06-10 | ✅ / ⚠️ / ❌     |        |
-| 4   | 2026-06-17 | ✅ / ⚠️ / ❌     |        |
-| 5   | 2026-07-03 | ✅ / ⚠️ / ❌     |        |
+| 1 (Día 1)  | 2026-06-27 | ✅             | Reinicio desde Día 1 tras hueco largo |
+| 2 (Día 7)  | 2026-07-04 | ✅ / ⚠️ / ❌     |        |
+| 3 (Día 30) | 2026-07-27 | ✅ / ⚠️ / ❌     |        |
 
 ---
 

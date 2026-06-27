@@ -4,10 +4,10 @@ fuente: Estudio propio (síntesis de notas de Corriente Eléctrica, Fast Etherne
 fecha: 2026-06-03
 relevancia: alta
 dominio: física / electromagnetismo / redes
-review-count: 0
+review-count: 1
 ultimo-review: 2026-06-27
-next-review: 2026-06-28
-nivel-retencion: 0
+next-review: 2026-07-04
+nivel-retencion: 1
 ---
 ![[onda-electromagnetica.png]]
 # 🔬 Onda Electromagnética
@@ -114,11 +114,9 @@ Conectar este concepto con la codificación MLT-3: cada transición de nivel en 
 
 | #   | Fecha      | ¿Recordé bien? | Ajuste |
 | --- | ---------- | -------------- | ------ |
-| 1   | 2026-06-04 | ✅ / ⚠️ / ❌     |        |
-| 2   | 2026-06-06 | ✅ / ⚠️ / ❌     |        |
-| 3   | 2026-06-10 | ✅ / ⚠️ / ❌     |        |
-| 4   | 2026-06-17 | ✅ / ⚠️ / ❌     |        |
-| 5   | 2026-07-03 | ✅ / ⚠️ / ❌     |        |
+| 1 (Día 1)  | 2026-06-27 | ✅             | Reinicio desde Día 1 tras hueco largo |
+| 2 (Día 7)  | 2026-07-04 | ✅ / ⚠️ / ❌     |        |
+| 3 (Día 30) | 2026-07-27 | ✅ / ⚠️ / ❌     |        |
 
 ---
 ![[Nota-15-05-26.jpg]]
