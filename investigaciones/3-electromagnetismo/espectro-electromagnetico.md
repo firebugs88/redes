@@ -1,7 +1,7 @@
 ---
 type: research
 fecha: 2026-06-01
-relevancia: alta
+relevancia: media
 dominio: física / electromagnetismo
 review-count: 0
 ultimo-review: 2026-06-01
@@ -12,7 +12,7 @@ tags:
   - tema/electromagnetismo
   - research
   - review/pendiente
-  - prioridad/alta
+  - prioridad/media
 ---
 
 # 🌈 El Espectro Electromagnético

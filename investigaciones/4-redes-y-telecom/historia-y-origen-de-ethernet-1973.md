@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (historia de redes)
 fecha: 2026-04-12
-relevancia: alta
+relevancia: media
 dominio: redes/historia
 review-count: 0
 ultimo-review: 2026-04-12

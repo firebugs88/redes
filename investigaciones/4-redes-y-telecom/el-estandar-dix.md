@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio
 fecha: 2026-06-03
-relevancia: alta
+relevancia: media
 dominio: redes / historia de Ethernet
 review-count: 0
 ultimo-review: 2026-06-03

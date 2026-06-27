@@ -2,7 +2,7 @@
 type: research
 fuente: Perplexity AI (procesado y asimilado)
 fecha: 2026-06-01
-relevancia: alta
+relevancia: media
 dominio: Física fundamental / estructura atómica
 review-count: 0
 ultimo-review: 2026-06-01

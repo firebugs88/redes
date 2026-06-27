@@ -13,7 +13,7 @@ tags:
   - tema/física
   - tema/electromagnetismo
   - review/pendiente
-  - prioridad/alta
+  - prioridad/media
 ---
 
 # ❓ Preguntas clave sobre la Onda Electromagnética

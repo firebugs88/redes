@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (historia de Internet)
 fecha: 2026-04-12
-relevancia: alta
+relevancia: baja
 dominio: redes / historia de Internet
 review-count: 0
 ultimo-review: 2026-04-12

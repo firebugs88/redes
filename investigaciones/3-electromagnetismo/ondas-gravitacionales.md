@@ -1,7 +1,7 @@
 ---
 type: research
 fecha: 2026-06-01
-relevancia: media
+relevancia: baja
 dominio: física/relatividad
 review-count: 0
 ultimo-review: 2026-06-01

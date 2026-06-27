@@ -2,7 +2,7 @@
 type: research
 fuente: Explicación generada con Claude (diagrama interactivo incluido)
 fecha: 2026-06-24
-relevancia: alta
+relevancia: media
 dominio: redes-y-telecom
 review-count: 0
 ultimo-review: 2026-06-24
@@ -12,7 +12,7 @@ tags:
   - research
   - tema/redes
   - review/pendiente
-  - prioridad/alta
+  - prioridad/media
 ---
 
 # 🔬 Modelo OSI — Arquitectura de Red en 7 Capas

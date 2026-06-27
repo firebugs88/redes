@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (estándares de Internet)
 fecha: 2026-04-12
-relevancia: media
+relevancia: baja
 dominio: redes / estándares / Internet
 review-count: 0
 ultimo-review: 2026-04-12

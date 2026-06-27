@@ -2,7 +2,7 @@
 type: research
 fuente: recursos/Investigación Profunda del Voltaje Eléctrico.md
 fecha: 2026-06-01
-relevancia: alta
+relevancia: media
 dominio: física/electromagnetismo
 review-count: 0
 ultimo-review: 2026-06-01
