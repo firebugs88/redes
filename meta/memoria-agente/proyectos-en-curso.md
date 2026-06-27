@@ -24,7 +24,7 @@ tags:
 
 ## Pendientes inmediatos
 
-- **2026-06-26 · Cambios sin commit en `main`.** Toda la capa de agente (Pieza A+B+C) está sin versionar. El usuario sincroniza con Hermes vía git; conviene hacer commit (idealmente en una rama) cuando lo apruebe. Mencionado, aún no autorizado.
+- **2026-06-26 · Git: rama + commit + PUSH + PR hechos.** La capa de agente (A+B+C) + las 4 correcciones viven en la rama `agente/capa-memoria` (commit `c827724`), ya pusheada a `origin` (github.com/firebugs88/redes). **PR #1 abierto hacia `main`** el 2026-06-26: https://github.com/firebugs88/redes/pull/1 (creado vía navegador; el `gh` CLI falló por token de keyring inválido). _Falta:_ revisar y mergear el PR. Los cambios pre-existentes (`workspace.json`, `020 ... MOC`, `inbox/`, nota suelta del lagrangiano) se dejaron fuera del commit a propósito.
 - **2026-06-26 · Primer decantado — acciones APLICADAS (aprobadas por el usuario):** corregidos los 3 errores de higiene (`resistencia` tenía el campo en inglés `relevance`→`relevancia`; `voltaje` ultimo-review futuro 06-28→05-28; `corriente-electrica` next-review 06-18→06-27) y degradada `ondas-gravitacionales` alta→media.
 - **2026-06-26 · Recalibración de relevancias pendiente (opcional):** sigue el ~86% en "alta"; solo se degradó una. El usuario puede pedir un pase de recalibración más amplio cuando quiera.
 
