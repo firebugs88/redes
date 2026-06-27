@@ -1,7 +1,7 @@
 ---
 type: research
 fecha: 2026-06-01
-relevancia: media
+relevancia: baja
 dominio: física/relatividad
 review-count: 0
 ultimo-review: 2026-06-01
@@ -9,9 +9,9 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#tema/relatividad"
-  - "#review/pendiente"
+  - tema/física
+  - tema/relatividad
+  - review/pendiente
 ---
 
 # 🔬 Ondas Gravitacionales

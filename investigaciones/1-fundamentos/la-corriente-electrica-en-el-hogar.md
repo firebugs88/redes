@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (sistemas eléctricos domésticos)
 fecha: 2026-04-09
-relevancia: alta
+relevancia: media
 dominio: física / electromagnetismo / sistemas eléctricos
 review-count: 0
 ultimo-review: 2026-05-28
@@ -18,10 +18,10 @@ palabras-clave:
   - medidor
 tags:
   - research
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
-  - "#prioridad/alta"
+  - tema/física
+  - tema/electromagnetismo
+  - review/pendiente
+  - prioridad/media
 ---
 
 # 🔬 La Corriente Eléctrica en el Hogar

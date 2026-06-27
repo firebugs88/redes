@@ -2,7 +2,7 @@
 type: research
 fuente: Perplexity AI (procesado y asimilado)
 fecha: 2026-06-01
-relevancia: alta
+relevancia: media
 dominio: Física fundamental / estructura atómica
 review-count: 0
 ultimo-review: 2026-06-01
@@ -10,8 +10,8 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#review/pendiente"
+  - tema/física
+  - review/pendiente
 ---
 
 # 🔬 La Composición de la Materia: Átomos, Protones, Neutrones y Electrones

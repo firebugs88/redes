@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (historia de redes)
 fecha: 2026-04-12
-relevancia: alta
+relevancia: media
 dominio: redes/historia
 review-count: 0
 ultimo-review: 2026-04-12
@@ -10,9 +10,9 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/redes"
-  - "#tema/historia"
-  - "#review/pendiente"
+  - tema/redes
+  - tema/historia
+  - review/pendiente
 ---
 
 # 🔬 Historia y Origen de Ethernet (1973)

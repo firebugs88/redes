@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (física cuántica de campos)
 fecha: 2026-04-09
-relevancia: alta
+relevancia: media
 dominio: física cuántica / electromagnetismo / QED
 review-count: 0
 ultimo-review: 2026-04-09

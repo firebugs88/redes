@@ -2,7 +2,7 @@
 type: research
 fuente: recursos/Investigación Profunda del Voltaje Eléctrico.md
 fecha: 2026-06-01
-relevancia: alta
+relevancia: media
 dominio: física/electromagnetismo
 review-count: 0
 ultimo-review: 2026-06-01
@@ -10,10 +10,10 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#tema/circuitos"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
+  - tema/física
+  - tema/circuitos
+  - tema/electromagnetismo
+  - review/pendiente
 ---
 
 # 🔬 Ruptura de KVL y Campos No Conservativos

@@ -24,9 +24,11 @@ tags:
 
 ## Pendientes inmediatos
 
-- **2026-06-26 · Cambios sin commit en `main`.** Toda la capa de agente (Pieza A+B+C) está sin versionar. El usuario sincroniza con Hermes vía git; conviene hacer commit (idealmente en una rama) cuando lo apruebe. Mencionado, aún no autorizado.
+- **2026-06-26 · Git: rama + commit + PUSH + PR hechos.** La capa de agente (A+B+C) + las 4 correcciones viven en la rama `agente/capa-memoria` (commit `c827724`), ya pusheada a `origin` (github.com/firebugs88/redes). **PR #1 abierto hacia `main`** el 2026-06-26: https://github.com/firebugs88/redes/pull/1 (creado vía navegador; el `gh` CLI falló por token de keyring inválido). _Falta:_ revisar y mergear el PR (6 commits al cierre de la sesión).
+- **2026-06-26 · Cabos sueltos resueltos.** `lagrangiano` integrado al repo (commit `1e7b994`) + registrado en MOC 020, con su escalera de repaso ajustada a la mínima sostenible. `.obsidian/workspace.json` destrackeado (commit `aeec233`, ya estaba en `.gitignore`; archivo local conservado). La captura `inbox/lagrangiano` (procesado:true) se retiró del working tree (su contenido ya vive en la nota de research). **Working tree limpio.**
 - **2026-06-26 · Primer decantado — acciones APLICADAS (aprobadas por el usuario):** corregidos los 3 errores de higiene (`resistencia` tenía el campo en inglés `relevance`→`relevancia`; `voltaje` ultimo-review futuro 06-28→05-28; `corriente-electrica` next-review 06-18→06-27) y degradada `ondas-gravitacionales` alta→media.
-- **2026-06-26 · Recalibración de relevancias pendiente (opcional):** sigue el ~86% en "alta"; solo se degradó una. El usuario puede pedir un pase de recalibración más amplio cuando quiera.
+- **2026-06-26 · Recalibración de relevancias HECHA.** Las 23 notas de research pasaron de ~86% "alta" a un reparto Pareto: **7 alta / 12 media / 4 baja**. Rúbrica: alta = hub del grafo + columna vertebral física↔redes; media = soporte/contexto; baja = periférica (ondas-gravitacionales, lagrangiano, nsfnet, rfc).
+- **2026-06-26 · Tags `prioridad/` reconciliados con la relevancia.** Las 5 notas con `prioridad/alta` en frontmatter se alinearon: `preguntas-clave`, `espectro-electromagnetico`, `la-corriente-electrica-en-el-hogar`, `modelo-osi` → `prioridad/media`; `lagrangiano` → `prioridad/baja`. (Los `#prioridad/alta` que quedan en el cuerpo son texto explicativo de los callouts de repaso, no clasificaciones.)
 
 ## 🔗 Relacionado
 

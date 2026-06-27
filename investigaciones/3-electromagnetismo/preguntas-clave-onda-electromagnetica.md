@@ -10,10 +10,10 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
-  - "#prioridad/alta"
+  - tema/física
+  - tema/electromagnetismo
+  - review/pendiente
+  - prioridad/media
 ---
 
 # ❓ Preguntas clave sobre la Onda Electromagnética

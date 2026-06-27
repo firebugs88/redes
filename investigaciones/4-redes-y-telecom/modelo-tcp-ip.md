@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (arquitectura de protocolos de red)
 fecha: 2026-04-12
-relevancia: alta
+relevancia: media
 dominio: redes / protocolos / Internet
 review-count: 0
 ultimo-review: 2026-04-12
@@ -10,8 +10,8 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/redes"
-  - "#review/pendiente"
+  - tema/redes
+  - review/pendiente
 ---
 
 > [!important] Recuperación Activa — palabras clave

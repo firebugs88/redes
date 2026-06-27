@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (fundamentos, historia y física de estado sólido)
 fecha: 2026-06-01
-relevancia: alta
+relevancia: media
 dominio: física / electromagnetismo / estado sólido
 review-count: 0
 ultimo-review: 2026-06-01
@@ -10,9 +10,9 @@ next-review: 2026-06-03
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
+  - tema/física
+  - tema/electromagnetismo
+  - review/pendiente
 ---
 
 # 🔬 Resistencia Eléctrica: Del Modelo Clásico a la Física del Estado Sólido

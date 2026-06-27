@@ -18,6 +18,7 @@ tags:
 - **2026-06-26 · Memoria meta en archivos por categoría, no un archivo por hecho.** _Razón:_ para meta-memoria del agente, unos pocos archivos estables (preferencias/decisiones/patrones/proyectos) son más legibles y podables en Obsidian que decenas de micro-notas. (Distinto de la regla "una nota, un tema" que aplica al conocimiento de dominio.)
 - **2026-06-26 · Poda = degradar o archivar, NUNCA borrar conocimiento.** El decantador (`decantador-cognitivo`) solo propone; archivar mueve a `archivo/` (reversible, los `[[enlaces]]` siguen resolviendo). Solo se borra la memoria operativa del agente (`meta/`), no las notas de dominio. _Razón:_ en una bóveda de aprendizaje el costo de perder conocimiento es alto; el de degradar prioridad es nulo.
 - **2026-06-26 · El Índice de Valor del decantador es transparente y pondera el grafo cuando la relevancia se satura.** _Razón:_ el primer escaneo mostró que ~86% de las notas están marcadas `relevancia: alta` → esa señal no informa. La conectividad en el grafo (Pieza A) es entonces la señal de valor más fiable.
+- **2026-06-26 · Distribución objetivo de relevancias ~tipo Pareto (≈30/50/20).** Al recalibrar, `alta` se reserva para hubs que además son columna vertebral del proyecto física↔redes; `media` para soporte/contexto/historia; `baja` para temas periféricos. Resultado del primer pase: 7 alta / 12 media / 4 baja sobre 23 notas. Mantener esta proporción al crear notas nuevas (no marcar todo "alta").
 
 ## 🔗 Relacionado
 

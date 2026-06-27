@@ -10,9 +10,9 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
+  - tema/física
+  - tema/electromagnetismo
+  - review/pendiente
 ---
 
 # 🔬 Ecuaciones de Maxwell

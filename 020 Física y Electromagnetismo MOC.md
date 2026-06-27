@@ -12,6 +12,7 @@ Exploración de las leyes fundamentales que rigen la materia y la energía, con 
 - [[voltaje|El Voltaje y el Funcionamiento de una Batería]]
 - [[resistencia|La Resistencia Eléctrica (Modelo a Estado Sólido)]]
 - [[la-corriente-electrica-en-el-hogar|La corriente eléctrica en el hogar]]
+- [[lagrangiano-y-principio-de-minima-accion|El Lagrangiano y el Principio de Mínima Acción]]
 
 ## 🔌 2 · Circuitos
 *¿Cómo se comportan los circuitos y dónde fallan las reglas simples?*
