@@ -6,7 +6,7 @@ relevancia: media
 dominio: Física fundamental / estructura atómica
 review-count: 0
 ultimo-review: 2026-06-01
-next-review: 2026-06-04
+next-review: 2026-07-01
 nivel-retencion: 0
 tags:
   - research

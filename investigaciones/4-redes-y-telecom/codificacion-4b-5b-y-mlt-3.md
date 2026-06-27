@@ -6,7 +6,7 @@ relevancia: alta
 dominio: redes / capa física / codificación
 review-count: 0
 ultimo-review: 2026-06-02
-next-review: 2026-06-03
+next-review: 2026-06-29
 nivel-retencion: 0
 tags:
   - research

@@ -6,7 +6,7 @@ relevancia: baja
 dominio: física-fundamental / mecánica-clásica
 review-count: 0
 ultimo-review: 2026-06-25
-next-review: 2026-06-26
+next-review: 2026-07-04
 nivel-retencion: 0
 tags:
   - research

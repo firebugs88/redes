@@ -5,8 +5,8 @@ fecha: 2026-06-03
 relevancia: alta
 dominio: física / electromagnetismo / redes
 review-count: 0
-ultimo-review: 2026-06-03
-next-review: 2026-06-04
+ultimo-review: 2026-06-27
+next-review: 2026-06-28
 nivel-retencion: 0
 ---
 ![[onda-electromagnetica.png]]

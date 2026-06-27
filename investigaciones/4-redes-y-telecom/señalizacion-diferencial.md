@@ -6,7 +6,7 @@ relevancia: alta
 dominio: física / redes / capa física
 review-count: 4
 ultimo-review: 2026-06-01
-next-review: 2026-06-04
+next-review: 2026-06-28
 nivel-retencion: 0
 tags:
   - research

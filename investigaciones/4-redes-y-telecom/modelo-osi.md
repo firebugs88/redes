@@ -6,7 +6,7 @@ relevancia: media
 dominio: redes-y-telecom
 review-count: 0
 ultimo-review: 2026-06-24
-next-review: 2026-06-25
+next-review: 2026-07-02
 nivel-retencion: 0
 tags:
   - research

@@ -5,7 +5,7 @@ relevancia: baja
 dominio: física/relatividad
 review-count: 0
 ultimo-review: 2026-06-01
-next-review: 2026-06-04
+next-review: 2026-07-05
 nivel-retencion: 0
 tags:
   - research

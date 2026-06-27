@@ -6,7 +6,7 @@ relevancia: media
 dominio: física / electromagnetismo / sistemas eléctricos
 review-count: 0
 ultimo-review: 2026-05-28
-next-review: 2026-06-04
+next-review: 2026-06-30
 nivel-retencion: 0
 palabras-clave:
   - centrales eléctricas

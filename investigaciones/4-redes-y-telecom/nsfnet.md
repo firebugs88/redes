@@ -6,7 +6,7 @@ relevancia: baja
 dominio: redes / historia de Internet
 review-count: 0
 ultimo-review: 2026-04-12
-next-review: 2026-06-04
+next-review: 2026-07-04
 nivel-retencion: 0
 tags:
   - research

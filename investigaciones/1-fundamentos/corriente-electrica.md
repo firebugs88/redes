@@ -4,10 +4,10 @@ fuente: Estudio propio (fundamentos, historia y aplicaciones)
 fecha: 2026-04-09
 relevancia: alta
 dominio: física / electromagnetismo
-review-count: 1
-ultimo-review: 2026-06-20
+review-count: 2
+ultimo-review: 2026-06-27
 next-review: 2026-06-27
-nivel-retencion: 1
+nivel-retencion: 2
 ---
 ![[corriente-electrica.png]]
 
@@ -39,7 +39,16 @@ La carga eléctrica es una propiedad fundamental de la materia que determina las
 
 Toda carga eléctrica observable es un múltiplo entero de esta cantidad fundamental: **Q = n·e**, donde n es un entero. Esta cuantización fue demostrada experimentalmente por Robert Millikan en 1909 mediante su famoso experimento de la gota de aceite, en el que equilibró la fuerza gravitatoria y eléctrica sobre gotas cargadas suspendidas entre placas conductoras. Los quarks poseen cargas fraccionarias (±⅓e, ±⅔e), pero siempre se observan confinados en combinaciones que resultan en múltiplos enteros de e.
 
-La carga eléctrica posee tres propiedades fundamentales: se **conserva** (la carga total de un sistema aislado permanece constante), está **cuantizada** (solo existen múltiplos enteros de e) y es **relativistamente invariante** (no depende del marco de referencia). Existen dos tipos: positiva (protones, q = +e) y negativa (electrones, q = −e), con masa del electrón mₑ = **9,109 × 10⁻³¹ kg**.
+**La carga eléctrica posee tres propiedades fundamentales**: 
+
+- se **conserva** (la carga total de un sistema aislado permanece constante), 
+- está **cuantizada** (solo existen múltiplos enteros de e)
+- es **relativistamente invariante** (no depende del marco de referencia). 
+
+**Existen dos tipos**: 
+
+- **positiva (protones, q = +e)** 
+- **negativa (electrones, q = −e)**, con masa del electrón mₑ = **9,109 × 10⁻³¹ kg**.
 
 ### El modelo de Drude y los electrones de conducción
 
