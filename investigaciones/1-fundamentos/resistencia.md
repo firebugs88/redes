@@ -2,7 +2,7 @@
 type: research
 fuente: Estudio propio (fundamentos, historia y física de estado sólido)
 fecha: 2026-06-01
-relevance: alta
+relevancia: alta
 dominio: física / electromagnetismo / estado sólido
 review-count: 0
 ultimo-review: 2026-06-01

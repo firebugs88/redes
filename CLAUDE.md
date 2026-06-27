@@ -41,6 +41,8 @@ Todo lo que hagas debe pasar por este filtro: **¿esto me ayuda a aprender de ve
 | `templates/` | Plantillas base (no editar directamente) | Referencia |
 | `recursos/` | Material de consulta, cheatsheets, referencia estática | Referencia |
 | `Excalidraw/` | Diagramas y dibujos del plugin Excalidraw | Según necesidad |
+| `meta/` | Memoria progresiva del agente (`meta/memoria-agente/`). Curable por ti. | Referencia |
+| `archivo/` | Notas degradadas/archivadas por el decantador. Reversible: nada se borra. | Según necesidad |
 
 ### Subcarpetas de `investigaciones/` (OBLIGATORIO clasificar)
 
@@ -141,6 +143,9 @@ Dos familias. **Plantillas de nota** (crean una nota de la bóveda) y **plantill
 8. **Una nota, un tema.** Si una nota cubre más de un tema claramente diferenciado, dividirla en notas separadas con `🔗 Relacionado` entre ellas (ej: `INTERNET`, `NSFNET`, `RFC`).
 9. **Frontmatter obligatorio en `investigaciones/`.** Usa la plantilla `templates/research.md`, que genera todos los campos: `type`, `fuente`, `fecha`, `relevancia`, `dominio`, `review-count`, `ultimo-review`, `next-review`, `nivel-retencion` y `tags`. Imprescindibles para que el sistema de repaso funcione: `type`, `fecha`, `next-review` y `nivel-retencion`.
 10. **Tareas pendientes → `cosas-por-hacer.md`.** Las tareas sin fecha fija van ahí. Las del día van en la daily note.
+11. **Navega por el grafo, no a ciegas.** Antes de buscar con `glob`/`grep` o de abrir notas al azar, lee PRIMERO `900 Índice del Grafo MOC.md`: localiza por su resumen las 1-3 notas relevantes, sigue sus aristas `→` y solo entonces abre el contenido completo. Esto ahorra tokens (modelo LLM-wiki). Tras crear/editar/mover notas, regenera el índice con la skill `indexador-grafo`.
+12. **Memoria progresiva del agente.** Al INICIAR una sesión de trabajo, lee `meta/memoria-agente/_indice.md` (y al menos `preferencias.md` y `proyectos-en-curso.md`) para arrancar con contexto acumulado. Al CERRAR, si hubo aprendizajes durables, destílalos al archivo correcto con la skill `memoria-agente`, aplicando su filtro de poda (valor sobre volumen). No dupliques lo que ya está en las notas, en git o en este CLAUDE.md.
+13. **Decantación cognitiva (poda).** Periódicamente (revisión semanal/mensual) corre la skill `decantador-cognitivo`: cruza relevancia + nivel-retención + conectividad en el grafo + antigüedad y **propone** degradar prioridad, fusionar o archivar a `archivo/`. **Solo propone**: nunca borra ni archiva sin tu aprobación, y archivar es reversible. También poda esta memoria del agente y `meta/` cuando se saturen. Valor sobre volumen.
 
 ---
 
