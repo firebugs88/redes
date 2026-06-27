@@ -6,7 +6,7 @@ relevancia: alta
 dominio: física / electromagnetismo
 review-count: 1
 ultimo-review: 2026-06-20
-next-review: 2026-06-18
+next-review: 2026-06-27
 nivel-retencion: 1
 ---
 ![[corriente-electrica.png]]
