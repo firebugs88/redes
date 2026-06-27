@@ -5,10 +5,10 @@ fecha: 2026-04-13
 dominio: física / electromagnetismo / historia / tecnología
 relevancia: alta
 tags:
-  - "#research"
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
+  - research
+  - tema/física
+  - tema/electromagnetismo
+  - review/pendiente
 ---
 
 ## 🔗 Relacionado

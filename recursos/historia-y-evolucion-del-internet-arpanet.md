@@ -5,8 +5,8 @@ url: https://youtu.be/f1vYsZt_cIo?si=U50Axj7rD6uNnoQz
 fecha: 2026-04-12
 tags:
   - resources
-  - "#tema/redes"
-  - "#tema/historia"
+  - tema/redes
+  - tema/historia
 ---
 
 # 🎬 La historia y evolución del internet — ARPANET

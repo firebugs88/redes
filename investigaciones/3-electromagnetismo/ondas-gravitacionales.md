@@ -9,9 +9,9 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#tema/relatividad"
-  - "#review/pendiente"
+  - tema/física
+  - tema/relatividad
+  - review/pendiente
 ---
 
 # 🔬 Ondas Gravitacionales

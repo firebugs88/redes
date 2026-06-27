@@ -9,10 +9,10 @@ ultimo-review: 2026-06-03
 next-review: 2026-06-04
 nivel-retencion: 0
 tags:
-  - "#tema/redes"
-  - "#tema/historia"
+  - tema/redes
+  - tema/historia
   - research
-  - "#review/pendiente"
+  - review/pendiente
 ---
 
 # 🔬 El Estándar DIX (Ethernet II) — 1980

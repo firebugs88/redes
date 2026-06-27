@@ -18,8 +18,8 @@ palabras-clave:
   - 1969
 tags:
   - research
-  - "#tema/redes"
-  - "#review/pendiente"
+  - tema/redes
+  - review/pendiente
 ---
 
 # 📄 RFC — Request for Comments

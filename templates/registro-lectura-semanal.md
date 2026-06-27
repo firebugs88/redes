@@ -8,8 +8,8 @@ tecnica-principal:
 material-leido:
 sesiones-realizadas: 0
 tags:
-  - "#tema/aprendizaje"
-  - "#registro/lectura"
+  - tema/aprendizaje
+  - registro/lectura
 status: In Progress
 ---
 

@@ -10,9 +10,9 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
+  - tema/física
+  - tema/electromagnetismo
+  - review/pendiente
 sr-due: 2026-06-18
 sr-interval: 4
 sr-ease: 270

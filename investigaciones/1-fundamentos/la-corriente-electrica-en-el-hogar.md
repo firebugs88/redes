@@ -18,10 +18,10 @@ palabras-clave:
   - medidor
 tags:
   - research
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#review/pendiente"
-  - "#prioridad/alta"
+  - tema/física
+  - tema/electromagnetismo
+  - review/pendiente
+  - prioridad/alta
 ---
 
 # 🔬 La Corriente Eléctrica en el Hogar

@@ -8,11 +8,11 @@ ultimo-review: 2026-06-01
 next-review: 2026-06-03
 nivel-retencion: 0
 tags:
-  - "#tema/física"
-  - "#tema/electromagnetismo"
-  - "#research"
-  - "#review/pendiente"
-  - "#prioridad/alta"
+  - tema/física
+  - tema/electromagnetismo
+  - research
+  - review/pendiente
+  - prioridad/alta
 ---
 
 # 🌈 El Espectro Electromagnético

@@ -10,8 +10,8 @@ next-review: 2026-06-03
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/redes"
-  - "#review/pendiente"
+  - tema/redes
+  - review/pendiente
 ---
 
 > [!important] Recuperación Activa

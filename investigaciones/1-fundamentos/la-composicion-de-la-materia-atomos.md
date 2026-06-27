@@ -10,8 +10,8 @@ next-review: 2026-06-04
 nivel-retencion: 0
 tags:
   - research
-  - "#tema/física"
-  - "#review/pendiente"
+  - tema/física
+  - review/pendiente
 ---
 
 # 🔬 La Composición de la Materia: Átomos, Protones, Neutrones y Electrones

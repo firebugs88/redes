@@ -1,7 +1,7 @@
 ---
 fecha-creacion: 2026-04-12
 tags:
-  - "#prioridad/alta"
+  - prioridad/alta
 status: In Progress
 ---
 
