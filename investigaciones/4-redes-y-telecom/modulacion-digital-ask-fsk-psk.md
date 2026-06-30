@@ -126,7 +126,7 @@ Conectar con la columna vertebral de redes del vault: comparar **MLT-3/PAM (band
 ## 🔗 Relacionado
 
 - Proyectos: puente física↔redes — segunda mitad (la modulación **digital** como la cara inalámbrica de la codificación de línea).
-- Ideas: explorar **OFDM** (muchas subportadoras QAM en paralelo) como el siguiente escalón real de WiFi/5G — candidata a nota propia.
+- Ideas: [[ofdm]] — **el siguiente escalón real de WiFi/4G/5G**: muchas subportadoras QAM ortogonales en paralelo. OFDM no reemplaza a QAM, la organiza.
 - Otras investigaciones:
   - [[modulacion-am-fm]] — **la prima analógica directa**: AM↔ASK, FM↔FSK, y la fase (PSK) como dimensión nueva. Empieza por aquí.
   - [[codificacion-4b-5b-y-mlt-3]] — **la prima de banda base**: misma pregunta resuelta sobre cobre sin portadora (MLT-3/PAM ↔ ASK).

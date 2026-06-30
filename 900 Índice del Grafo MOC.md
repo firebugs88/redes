@@ -90,7 +90,9 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 - [[modulacion-am-fm]] :: Cómo una portadora EM lleva información: AM varía su amplitud, FM su frecuencia (centro fijo, desvío ±75 kHz); FM gana inmunidad al ruido a cambio de ancho de banda.
   → [[espectro-electromagnetico]], [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[modulacion-digital-ask-fsk-psk]]
 - [[modulacion-digital-ask-fsk-psk]] :: La versión digital de AM/FM: ASK/FSK/PSK conmutan amplitud/frecuencia/fase entre valores discretos (símbolos); QAM combina amplitud+fase (WiFi/5G). Banda base vs paso banda cierra el puente con la codificación.
-  → [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[espectro-electromagnetico]], [[onda-electromagnetica]]
+  → [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[espectro-electromagnetico]], [[onda-electromagnetica]], [[ofdm]]
+- [[ofdm]] :: Miles de subportadoras QAM ortogonales en paralelo: símbolos largos inmunes al multitrayecto; IFFT/FFT + prefijo cíclico lo hacen barato y robusto. Núcleo de WiFi/4G/5G; OFDMA lo reparte entre usuarios.
+  → [[modulacion-digital-ask-fsk-psk]], [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[espectro-electromagnetico]], [[onda-electromagnetica]]
 
 ---
 
