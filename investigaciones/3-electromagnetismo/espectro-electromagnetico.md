@@ -4,7 +4,7 @@ fecha: 2026-06-01
 relevancia: media
 dominio: física / electromagnetismo
 review-count: 0
-ultimo-review: 2026-06-01
+ultimo-review: 2026-06-30
 next-review: 2026-06-30
 nivel-retencion: 0
 tags:
@@ -55,6 +55,8 @@ tags:
 | ¿Cuál es la relación entre frecuencia, longitud de onda y energía? | **c = λf** (velocidad = longitud de onda × frecuencia). **E = hf = hc/λ** (energía del fotón). Mayor frecuencia → menor longitud de onda → mayor energía. Ejemplo: radio (f ~ MHz, λ ~ m, E ~ μeV) vs. rayos gamma (f > 30 EHz, λ < 0,01 nm, E > 100 keV). La escala abarca más de 20 órdenes de magnitud. |
 | ¿Qué es la brecha de terahercios? | La región entre ~0,1 y ~30 THz (entre microondas e IR lejano), históricamente poco explorada por la dificultad de generar y detectar estas frecuencias eficientemente. Actualmente se está cerrando con láseres de cascada cuántica y emisores espintrónicos. Aplicaciones: imagen médica no ionizante, control de calidad, comunicaciones ultrarrápidas (se han demostrado >200 Gbps en laboratorio a ~300 GHz). |
 | ¿Por qué distintas regiones penetran Materiales diferentes? | Depende de la energía del fotón relativa a las escalas de energía de la materia: radio (μeV–meV) atraviesa muros no conductores pero es reflejada por metal; IR (meV–eV) es absorbido por vibraciones moleculares del agua y CO₂; visible (1,7–3,26 eV) es absorbido por pigmentos y reflejado según la estructura electrónica; rayos X (100 eV–100 keV) atraviesan tejido blando pero son absorbidos por hueso (mayor Z); rayos gamma (>100 keV) requieren blindaje de plomo u hormigón. |
+| ¿Por qué se dice que es "un continuo infinito de frecuencias"? | Por dos motivos independientes. **Continuo** → la frecuencia es una variable real, no discreta: entre dos frecuencias cualesquiera existen infinitas intermedias, y las ecuaciones de Maxwell admiten como onda válida *cualquier* valor de `f ≥ 0`. No hay frecuencias "prohibidas". Consecuencia: las fronteras entre regiones (radio \| microondas \| IR…) son **convenciones humanas, no muros físicos** — no ocurre nada especial exactamente en 300 GHz. **Infinito** → la teoría clásica no impone tope superior a `f`: como `E = hf`, una frecuencia mayor solo significa un fotón más energético, y nada en las ecuaciones lo prohíbe (`f → ∞ ⇒ E → ∞`). Hacia abajo, `f → 0` es el caso límite del campo estático (corriente continua). Es un "infinito" **teórico**: en la práctica hay límites físicos (energía disponible; a ~10⁴³ Hz, frecuencia de Planck, la física clásica deja de valer). |
+| ¿Por qué se dice "continuo infinito" si solo hay ~24 órdenes de magnitud? | Son dos afirmaciones distintas que conviene no confundir. **"Continuo"** = la frecuencia es una variable real: entre dos frecuencias cualesquiera hay infinitas intermedias, y Maxwell admite *cualquier* `f ≥ 0`. Por eso las fronteras entre regiones son convencionales, no físicas. **"Infinito"** = la teoría clásica no pone tope superior a `f` (como `E = hf`, subir `f` solo significa fotones más energéticos; nada lo prohíbe). Pero ese "infinito" es **teórico**; el inventario **práctico** (lo que observamos/usamos) abarca solo un tramo finito: **~24 órdenes de magnitud** de libro (~10⁰ Hz ELF → ~10²⁴ Hz gamma), o **~28–29** si se incluyen los gamma cósmicos más energéticos (PeV, ~10²⁹ Hz). El número exacto es algo arbitrario precisamente porque no hay fronteras duras (de ahí el "más de 20"). En octavas musicales (factor 2) serían **~80 octavas**, no 20. |
 
 **📌 Resumen en tus propias palabras (Feynman check):**
 
