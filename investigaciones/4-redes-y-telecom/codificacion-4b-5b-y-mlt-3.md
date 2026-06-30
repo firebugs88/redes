@@ -4,9 +4,9 @@ fuente: Estudio propio (codificación en redes Fast Ethernet)
 fecha: 2026-06-02
 relevancia: alta
 dominio: redes / capa física / codificación
-review-count: 0
-ultimo-review: 2026-06-02
-next-review: 2026-06-29
+review-count: 1
+ultimo-review: 2026-06-29
+next-review: 2026-07-06
 nivel-retencion: 0
 tags:
   - research
