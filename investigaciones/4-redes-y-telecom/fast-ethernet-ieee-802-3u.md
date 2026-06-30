@@ -16,6 +16,11 @@ review-count: 0
 ultimo-review: 2026-04-09
 next-review: 2026-06-29
 nivel-retencion: 0
+tags:
+  - research
+  - tema/redes
+  - tema/IEEE
+  - review/pendiente
 status: Completed
 finished: 2026-06-04
 ---

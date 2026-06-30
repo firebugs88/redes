@@ -8,6 +8,12 @@ review-count: 1
 ultimo-review: 2026-06-27
 next-review: 2026-07-04
 nivel-retencion: 1
+tags:
+  - research
+  - tema/física
+  - tema/electromagnetismo
+  - tema/redes
+  - review/pendiente
 ---
 ![[onda-electromagnetica.png]]
 # 🔬 Onda Electromagnética
