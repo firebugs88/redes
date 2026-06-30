@@ -1,6 +1,6 @@
 ---
 type: indice-grafo
-generado: 2026-06-26
+generado: 2026-06-30
 generado-por: skill indexador-grafo
 nota: Archivo GENERADO AUTOMÁTICAMENTE. No editar a mano — se regenera con la skill `indexador-grafo`.
 tags:
@@ -87,6 +87,10 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
   → [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[historia-y-origen-de-ethernet-1973]], [[onda-electromagnetica]], [[corriente-electrica]]
 - [[señalizacion-diferencial]] :: Datos como diferencia de voltaje entre dos conductores; el par trenzado cancela el ruido de modo común (CMRR).
   → [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]], [[fast-ethernet-ieee-802-3u]]
+- [[modulacion-am-fm]] :: Cómo una portadora EM lleva información: AM varía su amplitud, FM su frecuencia (centro fijo, desvío ±75 kHz); FM gana inmunidad al ruido a cambio de ancho de banda.
+  → [[espectro-electromagnetico]], [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[modulacion-digital-ask-fsk-psk]]
+- [[modulacion-digital-ask-fsk-psk]] :: La versión digital de AM/FM: ASK/FSK/PSK conmutan amplitud/frecuencia/fase entre valores discretos (símbolos); QAM combina amplitud+fase (WiFi/5G). Banda base vs paso banda cierra el puente con la codificación.
+  → [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[espectro-electromagnetico]], [[onda-electromagnetica]]
 
 ---
 

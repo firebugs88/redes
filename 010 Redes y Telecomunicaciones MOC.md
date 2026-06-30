@@ -9,6 +9,8 @@ Este mapa centraliza la evolución y los protocolos de las redes de datos, desde
 *Donde la física se convierte en telecomunicación.*
 - [[señalizacion-diferencial|Señalización Diferencial]]
 - [[codificacion-4b-5b-y-mlt-3|Codificación 4B-5B y MLT-3]]
+- [[modulacion-am-fm|Modulación AM vs FM]]
+- [[modulacion-digital-ask-fsk-psk|Modulación digital ASK/FSK/PSK (y QAM)]]
 
 ## 🏗️ Historia y Estándares de Ethernet
 - [[historia-y-origen-de-ethernet-1973|Historia de Ethernet (1973)]]
