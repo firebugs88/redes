@@ -1,0 +1,12 @@
+#separator:Pipe
+#html:true
+#notetype:Cloze
+#columns:Texto Extra Etiquetas
+#tags column:3
+#deck:Mi segundo Cerebro::Física::Fundamentos
+Una corriente de 1 amperio equivale a {{c1::1 culombio por segundo}}, es decir, unos {{c2::6,242 × 10¹⁸}} electrones que atraviesan una sección del conductor cada segundo. [[corriente-electrica]] |  | fisica::corriente fundamentos cloze
+El valor eficaz (RMS) de una onda sinusoidal vale \( V_{RMS} = \dfrac{V_{pico}}{\sqrt{2}} \approx {{c1::0,707}}\, V_{pico} \). [[corriente-electrica]] | Por eso 230 V eficaces corresponden a ~325 V de pico. | fisica::corriente fundamentos cloze
+1 voltio se define como {{c1::1 julio}} por {{c2::culombio}} (1 V = 1 J/C). [[voltaje]] | 🔑 Volt-Julio-Culombio: un Voltio es un Julio repartido entre un Culombio de carga. | fisica::voltaje fundamentos cloze
+Un julio es, aproximadamente, la energía necesaria para {{c1::levantar 100 g (una manzana) un metro de altura}}. [[voltaje]] | 🔑 Palabra clave: "julio = manzana levantada". | fisica::voltaje fundamentos cloze
+La resistencia de un conductor cilíndrico se calcula como \( R = \rho \dfrac{L}{A} \): crece con la {{c1::longitud}} (L) y decrece con el {{c2::área}} de sección transversal (A). [[resistencia]] | ρ es la resistividad, propiedad intrínseca del material. | fisica::resistencia fundamentos cloze
+Regla de Matthiessen: la resistividad total es la suma de la contribución {{c1::térmica}} (fonones, depende de T) y la {{c2::residual}} (impurezas y defectos, persiste a 0 K). [[resistencia]] |  | fisica::resistencia fundamentos cloze
