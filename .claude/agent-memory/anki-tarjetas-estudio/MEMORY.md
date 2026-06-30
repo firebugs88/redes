@@ -1,0 +1,1 @@
+- [Preferencias de generación Anki](anki_preferencias.md) — ubicación de salida, naming, mazo, nivel por defecto y fuentes que mejor rinden
