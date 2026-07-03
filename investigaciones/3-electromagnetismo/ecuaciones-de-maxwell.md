@@ -4,9 +4,9 @@ fuente: ondas-electromagneticas-ppxty (Perplexity AI — nivel universitario)
 fecha: 2026-06-01
 relevancia: alta
 dominio: física/electromagnetismo
-review-count: 0
+review-count: 1
 ultimo-review: 2026-06-30
-next-review: 2026-06-29
+next-review: 2026-07-07
 nivel-retencion: 0
 tags:
   - research

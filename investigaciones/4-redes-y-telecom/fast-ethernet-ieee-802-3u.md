@@ -13,8 +13,8 @@ keywords:
   - 125 Mbaud
   - Cat5
 review-count: 0
-ultimo-review: 2026-04-09
-next-review: 2026-06-29
+ultimo-review: 2026-06-30
+next-review: 2026-07-01
 nivel-retencion: 0
 tags:
   - research
