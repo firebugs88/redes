@@ -3,9 +3,9 @@ type: research
 fecha: 2026-06-01
 relevancia: media
 dominio: física / electromagnetismo
-review-count: 0
-ultimo-review: 2026-06-30
-next-review: 2026-06-30
+review-count: 1
+ultimo-review: 2026-07-06
+next-review: 2026-07-20
 nivel-retencion: 0
 tags:
   - tema/física
@@ -145,6 +145,7 @@ tags:
 | 3   | 2026-06-10 | ✅ / ⚠️ / ❌     |        |
 | 4   | 2026-06-17 | ✅ / ⚠️ / ❌     |        |
 | 5   | 2026-07-03 | ✅ / ⚠️ / ❌     |        |
+| 6   | 2026-07-06 | ✅              | +14 días — reforzado: el Sol explica el visible · el visible no es físicamente especial · frontera ionizante *dentro* del UV |
 
 ---
 
