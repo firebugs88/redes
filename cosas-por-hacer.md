@@ -19,8 +19,7 @@ status: In Progress
 ---
 ## 🟡 Próximamente
 
-- [ ] Hacer la antena de Wi-Fi con el tarro de papas 📅 2026-06-20
-- [ ] Llamar abogados de **American School Way** 📅 2026-06-26
+- [ ] Hacer la antena de Wi-Fi con el tarro de papas 📅 2026-06-20 (ver [[antena-wifi-tarro-papas]])
 
 ---
 ## 🟢 Algún día / Sin fecha
@@ -28,8 +27,10 @@ status: In Progress
 ---
 ## ✅ Completadas (mover aquí al terminar)
 
+- [x] Llamar abogados de **American School Way** 📅 2026-06-26 ✅ 2026-06-27
+
 
 ---
 ## 🔗 Relacionado
 
-- las Notas diarias van en la carpeta daily note
+- [[050 Diario MOC]] — las tareas del día viven en la daily-note correspondiente

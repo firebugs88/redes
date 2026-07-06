@@ -12,10 +12,10 @@ keywords:
   - 4B/5B
   - 125 Mbaud
   - Cat5
-review-count: 0
-ultimo-review: 2026-06-30
-next-review: 2026-07-01
-nivel-retencion: 0
+review-count: 1
+ultimo-review: 2026-07-06
+next-review: 2026-07-13
+nivel-retencion: 1
 tags:
   - research
   - tema/redes
@@ -109,6 +109,7 @@ Conectar con [[codificacion-4b-5b-y-mlt-3]] para profundizar en la capa PCS/PMA 
 | 3   | Día 7     | 2026-06-10 | ✅ / ⚠️ / ❌     |        |
 | 4   | Día 14    | 2026-06-17 | ✅ / ⚠️ / ❌     |        |
 | 5   | Día 30    | 2026-07-03 | ✅ / ⚠️ / ❌     |        |
+| 6   | Reinicio Día 7 | 2026-07-06 | ✅         | Reforzado: MLT-3 cambia con cada '1' (4 unos = 1 ciclo → ÷4) · límite Cat5 = atenuación/efecto skin (no calor) · geometría de Poynting · CMRR del trenzado. Próximo: 2026-07-13 |
 
 
 ---

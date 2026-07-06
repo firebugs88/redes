@@ -11,7 +11,7 @@ tags:
   - research
   - tema/física
   - tema/relatividad
-  - review/pendiente
+  - review/pausado
 ---
 
 # 🔬 Ondas Gravitacionales

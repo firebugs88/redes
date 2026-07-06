@@ -31,6 +31,8 @@ tags:
 - **2026-06-26 · Errores recurrentes en el frontmatter:** aparecieron `ultimo-review` en el futuro, `next-review` anterior al último repaso, y un campo escrito en inglés (`relevance` en vez de `relevancia`, lo que lo vuelve invisible a los escaneos). Vigilar nombres de campo y coherencia de fechas al crear/editar notas.
 - **2026-06-26 · Tags malformados — CORREGIDO.** Se limpiaron 69 líneas en 23 archivos (frontmatter con `#` entre comillas `"#tema/física"` → `tema/física`), preservando los tags del cuerpo `- #idea` (que SÍ llevan `#`). Se arregló también la raíz: la plantilla `registro-lectura-semanal.md` generaba tags malformados. La señal que separó malformado de correcto fue las comillas: solo el frontmatter los tenía entrecomillados.
 
+- **2026-07-03 · La deuda de repaso era estructural, no de disciplina.** Sin cupo diario, las 23 notas compiten todas a la vez y la cola explota una y otra vez (21 vencidas el 06-24; 16 el 07-03 — cinco días después de haberla saneado). Respuesta estructural: presupuesto ≤5/día + `review/pausado` para relevancia baja (ver [[decisiones]]). **Señal de vigilancia:** si la cola de un día vuelve a superar ~8 notas, algo está agendando mal (¿notas nuevas todas en el mismo next-review? ¿pausadas reactivadas en bloque?).
+
 ## 🔗 Relacionado
 
 - [[_indice]] · [[preferencias]] · [[900 Índice del Grafo MOC]]

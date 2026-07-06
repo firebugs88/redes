@@ -19,7 +19,7 @@ palabras-clave:
 tags:
   - research
   - tema/redes
-  - review/pendiente
+  - review/pausado
 ---
 
 # 📄 RFC — Request for Comments

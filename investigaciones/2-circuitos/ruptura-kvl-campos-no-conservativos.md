@@ -6,7 +6,7 @@ relevancia: media
 dominio: física/electromagnetismo
 review-count: 0
 ultimo-review: 2026-06-01
-next-review: 2026-07-01
+next-review: 2026-07-04
 nivel-retencion: 0
 tags:
   - research

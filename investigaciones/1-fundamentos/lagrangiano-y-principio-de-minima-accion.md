@@ -11,7 +11,7 @@ nivel-retencion: 0
 tags:
   - research
   - tema/física
-  - review/pendiente
+  - review/pausado
   - prioridad/baja
 ---
 

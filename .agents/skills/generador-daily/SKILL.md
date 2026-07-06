@@ -18,7 +18,7 @@ Este skill automatiza la creación de la nota diaria integrando repasos pendient
 ## Cuándo activar este skill
 
 - El usuario pide "crear mi daily note", "nota del día" o similar.
-- Es la rutina matutina: "¿qué tengo para hoy?"
+- Es la rutina matutina: "¿qué tengo para hoy?" (**Pausa 1** del Ritual de las 3 Pausas)
 - Al inicio de cada sesión de estudio.
 
 ---
@@ -32,10 +32,11 @@ Este skill automatiza la creación de la nota diaria integrando repasos pendient
 ### Paso 2: Leer la plantilla
 - Lee `templates/daily-note.md` y úsala como base para la nueva nota.
 
-### Paso 3: Escanear repasos del día
+### Paso 3: Escanear repasos del día (con presupuesto)
 - Lee el frontmatter de TODAS las notas en `investigaciones/` y subcarpetas.
-- Busca notas donde `next-review` ≤ fecha de hoy (hoy o atrasadas).
-- Lista esas notas en la sección de repasos de la daily-note con enlaces `[[nota]]`.
+- Busca notas donde `next-review` ≤ fecha de hoy (hoy o atrasadas), **excluyendo** las que tengan tag `review/pausado`.
+- Selecciona **máx. 5** para la daily (presupuesto de CLAUDE.md, regla 3): ① `relevancia: alta` atrasadas, ② hubs ⭐ del `900 Índice del Grafo MOC.md`, ③ resto por antigüedad.
+- Lista SOLO esas en la sección de repasos con enlaces `[[nota]]`. Si quedaron más fuera, indícalo en una línea ("+N replanificables — corre `auditor-repasos` para el detalle"), sin listarlas una a una.
 
 ### Paso 4: Revisar daily-note anterior
 - Busca la daily-note más reciente anterior a hoy en `daily-notes/`.

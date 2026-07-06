@@ -6,7 +6,7 @@ relevancia: media
 dominio: Física fundamental / estructura atómica
 review-count: 0
 ultimo-review: 2026-06-01
-next-review: 2026-07-01
+next-review: 2026-07-05
 nivel-retencion: 0
 tags:
   - research
@@ -62,7 +62,7 @@ tags:
 
 - El **99%+ del volumen atómico es espacio vacío** — el núcleo tiene un radio de ~$10^{-15}$ m frente al radio atómico de ~$10^{-10}$ m (factor de 100.000×).
 - El electrón es **elemental** (un leptón), mientras que protón y neutrón son **compuestos** (hechos de quarks).
-- La **conductividad eléctrica** en metales se explica porque los electrones de valencia se mueven libremente por la red cristalina → conecta con [[investigaciones/corriente-electrica]].
+- La **conductividad eléctrica** en metales se explica porque los electrones de valencia se mueven libremente por la red cristalina → conecta con [[corriente-electrica]].
 - Los **orbitales** (1s, 2s, 2p, 3d...) se organizan en capas definidas por cuatro números cuánticos: $n$ (principal), $l$ (momento angular), $m_l$ (magnético), $m_s$ (espín).
 - La tabla periódica entera es, en esencia, un mapa de cómo se llenan los orbitales con electrones.
 
@@ -86,12 +86,12 @@ tags:
 
 **Aplicación inmediata (esta semana):**
 
-- Usar esta nota como base para entender por qué los electrones de valencia son los que "fluyen" cuando hablamos de corriente eléctrica ([[investigaciones/corriente-electrica]])
+- Usar esta nota como base para entender por qué los electrones de valencia son los que "fluyen" cuando hablamos de corriente eléctrica ([[corriente-electrica]])
 - Repasar la tabla comparativa de partículas como ejercicio de recuperación activa
 
 **Aplicación a medio plazo (este mes):**
 
-- Conectar con la nota de [[investigaciones/fotones-virtuales]]: los fotones virtuales son los mediadores de la fuerza electromagnética entre cargas, complementando a los gluones (fuerza fuerte) de esta nota
+- Conectar con la nota de [[fotones-virtuales]]: los fotones virtuales son los mediadores de la fuerza electromagnética entre cargas, complementando a los gluones (fuerza fuerte) de esta nota
 - Explorar cómo los isótopos radiactivos conectan con aplicaciones tecnológicas y médicas
 
 **Proyecto o idea donde encaja:**
@@ -115,10 +115,10 @@ tags:
 
 ## 🔗 Relacionado
 
-- Otras investigaciones: [[investigaciones/corriente-electrica]] — los electrones de valencia como portadores de carga en conductores
-- Otras investigaciones: [[investigaciones/fotones-virtuales]] — mediadores de la fuerza electromagnética (complemento a gluones/fuerza fuerte)
-- Otras investigaciones: [[investigaciones/onda-electromagnetica]] — cargas aceleradas generan ondas EM
-- Otras investigaciones: [[investigaciones/voltaje]] — energía por unidad de carga, concepto que opera a nivel atómico
+- Otras investigaciones: [[corriente-electrica]] — los electrones de valencia como portadores de carga en conductores
+- Otras investigaciones: [[fotones-virtuales]] — mediadores de la fuerza electromagnética (complemento a gluones/fuerza fuerte)
+- Otras investigaciones: [[onda-electromagnetica]] — cargas aceleradas generan ondas EM
+- Otras investigaciones: [[voltaje]] — energía por unidad de carga, concepto que opera a nivel atómico
 - MOC: [[020 Física y Electromagnetismo MOC]]
 
 ---

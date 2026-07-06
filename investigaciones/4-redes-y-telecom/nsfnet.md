@@ -12,7 +12,7 @@ tags:
   - research
   - tema/redes
   - tema/historia
-  - review/pendiente
+  - review/pausado
 ---
 
 > [!important] Recuperación Activa

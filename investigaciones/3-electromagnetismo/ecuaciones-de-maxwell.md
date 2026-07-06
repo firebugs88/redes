@@ -115,5 +115,5 @@ tags:
 - [[onda-electromagnetica]] — nota canónica sobre ondas EM (propiedades, espectro, generación)
 - [[fotones-virtuales]] — descripción cuántica del campo electromagnético (QED)
 - [[corriente-electrica]] — fundamento de la corriente que alimenta la Ley de Ampère
-- [[corriente-electrica-en-el-hogar]] — aplicación práctica de la corriente alterna
+- [[la-corriente-electrica-en-el-hogar]] — aplicación práctica de la corriente alterna
 - [[onda-electromagnetica]] — donde las ecuaciones de Maxwell predicen la existencia de ondas EM

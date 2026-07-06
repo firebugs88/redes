@@ -6,7 +6,7 @@ relevancia: media
 dominio: redes / historia de Ethernet
 review-count: 0
 ultimo-review: 2026-06-03
-next-review: 2026-07-01
+next-review: 2026-07-04
 nivel-retencion: 0
 tags:
   - tema/redes
@@ -122,7 +122,7 @@ tags:
 
 ## 🔗 Relacionado
 
-- [[historia-origen-ethernet-1973]] — el origen del que nace el consorcio DIX
+- [[historia-y-origen-de-ethernet-1973]] — el origen del que nace el consorcio DIX
 - [[fast-ethernet-ieee-802-3u]] — la evolución directa del estándar que DIX abrió al mundo
 - [[señalizacion-diferencial]] — técnica de codificación usada en variantes posteriores de Ethernet
 - [[internet]] — Ethernet II (DIX) es el formato de trama que transporta todos los paquetes de Internet

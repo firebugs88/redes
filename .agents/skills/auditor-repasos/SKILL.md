@@ -35,7 +35,7 @@ Este skill escanea las notas de investigación y genera reportes de repetición 
    - `next-review` — fecha del próximo repaso
    - `review-count` — número de repasos completados
    - `ultimo-review` — fecha del último repaso
-   - `nivel-retencion` — nivel 0-100
+   - `nivel-retencion` — escalón consolidado de la escalera: 0 = ninguno · 1 = Día 1 superado · 2 = Día 7 · 3 = Día 30 (candidata a dominado)
    - `tags` — buscar `review/pendiente` vs `review/dominado`
 
 3. Compara `next-review` con la fecha actual y clasifica:
@@ -43,6 +43,7 @@ Este skill escanea las notas de investigación y genera reportes de repetición 
    - 🟡 **Hoy** → `next-review` = hoy
    - 🟢 **Próximos 7 días** → `next-review` dentro de los próximos 7 días
    - ✅ **Dominada** → tag `review/dominado`
+   - ⏸️ **Pausada** → tag `review/pausado` (relevancia baja fuera de la cola activa — NO cuenta como atrasada aunque su `next-review` haya pasado)
 
 4. Genera el reporte.
 
@@ -63,6 +64,13 @@ Este skill escanea las notas de investigación y genera reportes de repetición 
 ```markdown
 # 📅 Reporte de Repasos — YYYY-MM-DD
 
+## 🎯 Plan de hoy (presupuesto: máx. 5 — regla 3 de CLAUDE.md)
+
+| # | Nota | Por qué entra en el cupo |
+|---|------|--------------------------|
+
+> Lo que no entra en el cupo se propone replanificar (correr `next-review` a días con cupo libre), no se acumula como deuda.
+
 ## 🔴 Atrasadas (requieren acción inmediata)
 
 | Nota | Subcarpeta | Último repaso | Días atrasada | Repasos hechos | Acción recomendada |
@@ -82,6 +90,7 @@ Este skill escanea las notas de investigación y genera reportes de repetición 
 - Total de notas de investigación: X
 - Pendientes de repaso: X
 - Dominadas: X
+- Pausadas (fuera de cola): X
 - Con deuda (+30 días): X
 
 ## 💡 Recomendaciones
@@ -97,3 +106,4 @@ Este skill escanea las notas de investigación y genera reportes de repetición 
 - **No modifiques ninguna nota** — solo genera el reporte.
 - Sé conciso pero completo: incluye TODAS las notas escaneadas en alguna categoría.
 - Ordena las atrasadas por días de atraso (más atrasada primero).
+- El "Plan de hoy" respeta el presupuesto (máx. 5): prioriza ① `relevancia: alta` atrasadas, ② hubs ⭐ del `900 Índice del Grafo MOC.md`, ③ resto por antigüedad. El excedente se propone replanificar — la deuda se gestiona, no se exhibe como culpa.

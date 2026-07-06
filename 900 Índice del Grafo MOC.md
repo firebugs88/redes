@@ -1,6 +1,6 @@
 ---
 type: indice-grafo
-generado: 2026-06-30
+generado: 2026-07-03
 generado-por: skill indexador-grafo
 nota: Archivo GENERADO AUTOMÁTICAMENTE. No editar a mano — se regenera con la skill `indexador-grafo`.
 tags:
@@ -112,11 +112,11 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 - `[[fuerza-electromotriz]]` ← referenciada desde [[ruptura-kvl-campos-no-conservativos]]
 - `[[relatividad-general]]` ← referenciada desde [[ondas-gravitacionales]], [[lagrangiano-y-principio-de-minima-accion]]
 - `[[efectos-biologicos-radiacion-em]]` ← referenciada desde [[espectro-electromagnetico]]
+- `[[ECMA]]` ← referenciada desde [[el-estandar-dix]] (estándares CSMA/CD paralelos a DIX)
+- `[[IEEE 802.11]]` ← referenciada desde [[el-estandar-dix]] (el legado de Ethernet en Wi-Fi)
 
-> [!warning] Enlaces probablemente rotos (revisar con `organizador-boveda`)
-> - `[[historia-origen-ethernet-1973]]` en [[el-estandar-dix]] → parece typo de [[historia-y-origen-de-ethernet-1973]].
-> - `[[corriente-electrica-en-el-hogar]]` en [[ecuaciones-de-maxwell]] → falta el prefijo `la-`: [[la-corriente-electrica-en-el-hogar]].
-> - `[[investigaciones/corriente-electrica]]` (estilo ruta) en [[la-composicion-de-la-materia-atomos]] → Obsidian usa solo el nombre: [[corriente-electrica]].
+> [!check] Enlaces rotos corregidos (2026-07-03)
+> Los enlaces rotos detectados en la generación anterior fueron corregidos en las notas de origen: typo en [[el-estandar-dix]], prefijo `la-` faltante en [[ecuaciones-de-maxwell]] y 7 enlaces estilo ruta (`[[investigaciones/...]]`) en [[la-composicion-de-la-materia-atomos]].
 
 ---
 
