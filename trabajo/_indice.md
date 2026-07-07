@@ -19,6 +19,7 @@ tags:
 
 _(las notas nuevas se enlazan aquí automáticamente, la más reciente arriba)_
 
+- 2026-07-05 09:00 — [[2026-07-05-hallazgo-3-reflectores-faltantes-jardines-av-boyaca]]
 - 2026-07-06 18:30 — [[2026-07-06-prueba-flujo-captura]]
 
 ---
