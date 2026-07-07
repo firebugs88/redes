@@ -5,11 +5,14 @@ tags:
 status: In Progress
 ---
 
-# ✅ Cosas por Hacer
+# ✅ Cosas por Hacer (estudios y proyectos)
+
+> [!info] Alcance de esta nota
+> Aquí **solo** van tareas que nacen de tus estudios o de un proyecto de la bóveda (leer, construir, practicar, investigar). Los recados administrativos o personales (trámites, citas, llamadas) **no** viven aquí: esos van a tu calendario o gestor de tareas. Esta bóveda es un segundo cerebro para *aprender y conectar*, no una agenda.
 
 > [!tip] Cómo usar esta nota
 > Agrega tareas con `- [ ]` y márcalas con `- [x]` al completarlas.
-> Usa las secciones para separar por contexto. Revisa esta nota en tu flujo diario.
+> Usa las secciones para separar por urgencia. Revisa esta nota en tu flujo diario.
 
 ---
 ## 🔴 Urgente / Esta semana
@@ -26,8 +29,6 @@ status: In Progress
 
 ---
 ## ✅ Completadas (mover aquí al terminar)
-
-- [x] Llamar abogados de **American School Way** 📅 2026-06-26 ✅ 2026-06-27
 
 
 ---
