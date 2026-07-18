@@ -60,7 +60,7 @@ tags:
 
 **📌 Resumen en tus propias palabras (Feynman check):**
 
-> Imagina que tiras una piedra a un estanque. La perturbaón crea olas que se alejan solas. Una onda electromagnética es parecido, pero en lugar de agua, lo que oscila son campos eléctricos y magnéticos. Lo sorprendente es que **la onda se crea a sí misma**: el campo eléctrico cambiante genera el magnético, y el magnético cambiante regenera el eléctrico, en un ciclo que se alimenta solo y puede viajar por el vacío del espacio sin necesitar nada material. Como dos bailarines que se impulsan mutuamente sin tocarse.
+> Imagina que tiras una piedra a un estanque. La perturbación crea olas que se alejan solas. Una onda electromagnética es parecido, pero en lugar de agua, lo que oscila son campos eléctricos y magnéticos. Lo sorprendente es que **la onda se crea a sí misma**: el campo eléctrico cambiante genera el magnético, y el magnético cambiante regenera el eléctrico, en un ciclo que se alimenta solo y puede viajar por el vacío del espacio sin necesitar nada material. Como dos bailarines que se impulsan mutuamente sin tocarse.
 
 ---
 

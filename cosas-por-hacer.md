@@ -22,7 +22,6 @@ status: In Progress
 ---
 ## 🟡 Próximamente
 
-- [ ] Hacer la antena de Wi-Fi con el tarro de papas 📅 2026-06-20 (ver [[antena-wifi-tarro-papas]])
 
 ---
 ## 🟢 Algún día / Sin fecha
@@ -30,7 +29,7 @@ status: In Progress
 ---
 ## ✅ Completadas (mover aquí al terminar)
 
-
+- [x] Hacer la antena de Wi-Fi con el tarro de papas 📅 2026-06-20 (ver [[antena-wifi-tarro-papas]]) ✅ 2026-07-15
 ---
 ## 🔗 Relacionado
 
