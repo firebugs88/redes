@@ -6,7 +6,7 @@ relevancia: media
 dominio: redes / historia de Ethernet
 review-count: 0
 ultimo-review: 2026-06-03
-next-review: 2026-07-04
+next-review: 2026-07-21
 nivel-retencion: 0
 tags:
   - tema/redes
