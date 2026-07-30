@@ -23,7 +23,9 @@ sr-ease: 270
 ---
 > [!important] El **voltaje** es la **diferencia de potencial eléctrico** entre dos puntos de un circuito. En términos sencillos, es la "fuerza" o "presión" que empuja a los electrones a moverse a través de un conductor.
 
-> [!important] es una magnitud física escalar que cuantifica el trabajo necesario por unidad de carga para trasladar una carga de prueba entre dos puntos de un campo electrostático, sin producir aceleración neta.
+> [!important] Es la cantidad de energía **(Trabajo)** necesaria para mover una carga eléctrica unitaria de un punto a otro dentro de un campo eléctrico
+
+> [!important] Es una magnitud física escalar que cuantifica el trabajo necesario por unidad de carga para trasladar una carga de prueba entre dos puntos de un campo electrostático, sin producir aceleración neta.
 ## 🔑 Recuperación Activa (Palabras Clave)
 
 > [!important] Antes de leer la nota, intenta explicar el concepto usando solo estas palabras clave:
