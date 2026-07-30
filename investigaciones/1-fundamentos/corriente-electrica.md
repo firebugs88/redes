@@ -4,9 +4,9 @@ fuente: Estudio propio (fundamentos, historia y aplicaciones)
 fecha: 2026-04-09
 relevancia: alta
 dominio: física / electromagnetismo
-review-count: 1
-ultimo-review: 2026-06-27
-next-review: 2026-07-18
+review-count: 2
+ultimo-review: 2026-07-27
+next-review: 2026-08-10
 nivel-retencion: 1
 tags:
   - research
@@ -804,8 +804,9 @@ Analogía: Piedras o estrechamientos dentro de la tubería.
 | #   | Fecha      | ¿Recordé bien? | Ajuste |
 | --- | ---------- | -------------- | ------ |
 | 1 (Día 1)  | 2026-06-27 | ✅             | Reinicio desde Día 1 tras hueco largo |
-| 2 (Día 7)  | 2026-07-04 | ✅ / ⚠️ / ❌     |        |
-| 3 (Día 30) | 2026-07-27 | ✅ / ⚠️ / ❌     |        |
+| 2 (Día 7)  | 2026-07-04 | — | Repaso no realizado (sin registrar) |
+| 3 (Día 30) | 2026-07-27 | ⚠️             | Deriva y trinidad V/I/R sólidas; la razón de fondo del triunfo de AC (el transformador solo funciona con corriente variable) necesitó explicación — se repite el intervalo |
+| 4 (repite) | 2026-08-10 | ✅ / ⚠️ / ❌     |        |
 
 ---
 
