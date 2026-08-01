@@ -85,7 +85,7 @@ Dos familias. **Plantillas de nota** (crean una nota de la bóveda) y **plantill
 | `prompt-5-pasos.md` | Construir un prompt estándar (5 pasos, buenas prácticas Anthropic) |
 | `prompt-10-pasos.md` | Construir un prompt avanzado (10 pasos, tareas complejas/agentes) |
 
-### Skills del agente (`.agents/skills/`)
+### Skills del agente (`.claude/skills/`)
 
 Cada pausa del ritual diario tiene una skill dueña; el resto son mantenimiento y creación.
 
