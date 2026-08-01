@@ -6,6 +6,7 @@ tags: [MOC, diario]
 Centro de acceso a tus registros cotidianos y planificación diaria.
 
 ## 📓 Notas Recientes
+- [[daily-notes/2026-08-01|2026-08-01]]
 - [[daily-notes/2026-06-24|2026-06-24]]
 - [[daily-notes/2026-06-20|2026-06-20]]
 - [[daily-notes/2026-06-01|2026-06-01]]
