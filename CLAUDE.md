@@ -101,6 +101,7 @@ Cada pausa del ritual diario tiene una skill dueña; el resto son mantenimiento 
 | `indexador-grafo` | Regenera `900 Índice del Grafo MOC.md` (mapa de navegación + huecos) |
 | `decantador-cognitivo` | Poda: propone degradar/fusionar/archivar (nunca ejecuta solo) |
 | `memoria-agente` | Destila aprendizajes durables a `meta/memoria-agente/` al cerrar sesión |
+| `revision-semanal` | Checklist de revisión semanal (inbox, proyectos, repasos atrasados, feynman pendiente) |
 | `creador-anki` | Tarjetas Anki (junto al agente `anki-tarjetas-estudio`) |
 
 Agentes (`.claude/agents/`): `profesor-fisica` (tutor que persiste explicaciones como notas) · `anki-tarjetas-estudio` (tarjetas de estudio).
@@ -202,15 +203,7 @@ Cada pausa tiene una **skill dueña**: si la pausa no ocurre sola, se invoca la 
 
 ## Revisión semanal
 
-Cada semana dedica 20-30 minutos a:
-
-- [ ] Vaciar `inbox/` clasificando cada nota
-- [ ] Revisar el estado de los proyectos activos (Pareto check)
-- [ ] Buscar notas con `#review/pendiente` atrasadas (correr `auditor-repasos`)
-- [ ] ¿Alguna `#review/pausado` merece reactivarse? (subió de relevancia o ganó conexiones en el grafo)
-- [ ] Buscar notas con `#feynman/pendiente` y completar el resumen
-- [ ] Identificar conexiones nuevas entre notas (agregar `[[enlaces]]`)
-- [ ] Archivar o completar lo que ya no es relevante
+Checklist completo en la skill `revision-semanal` (invócala para el repaso de 20-30 min: inbox, proyectos, repasos atrasados, feynman pendiente, archivado).
 
 ---
 
