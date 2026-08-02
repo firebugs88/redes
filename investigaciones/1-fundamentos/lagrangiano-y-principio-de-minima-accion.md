@@ -110,4 +110,4 @@ Resolver un problema simple con Lagrangiano (péndulo, masa en resorte) y compar
 ## 🔗 Relacionado
 
 - Proyectos: [[020 Física y Electromagnetismo MOC]]
-- Otras investigaciones: [[ecuaciones-de-maxwell]] · [[onda-electromagnetica]] · [[ondas-gravitacionales]] · [[corriente-electrica]] · [[voltaje]]
+- Otras investigaciones: [[ecuaciones-de-maxwell]] · [[onda-electromagnetica]] · [[ondas-gravitacionales]] · [[relatividad-general]] — la acción de Einstein-Hilbert de esta nota es de donde salen sus ecuaciones de campo · [[corriente-electrica]] · [[voltaje]]

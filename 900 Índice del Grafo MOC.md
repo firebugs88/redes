@@ -37,7 +37,7 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 - [[la-corriente-electrica-en-el-hogar]] :: De la inducción de Faraday → transmisión a 400 kV (P = I²R) → cableado domiciliario; la CA ganó por los transformadores.
   → [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]]
 - [[lagrangiano-y-principio-de-minima-accion]] :: L = T − V, acción S = ∫L dt; la naturaleza elige el camino de acción estacionaria (Euler-Lagrange ≡ Newton).
-  → [[ecuaciones-de-maxwell]], [[onda-electromagnetica]], [[ondas-gravitacionales]], [[corriente-electrica]], [[voltaje]]
+  → [[ecuaciones-de-maxwell]], [[onda-electromagnetica]], [[ondas-gravitacionales]], [[relatividad-general]], [[corriente-electrica]], [[voltaje]]
 
 ---
 
@@ -60,8 +60,10 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
   → [[onda-electromagnetica]], [[ecuaciones-de-maxwell]], [[fotones-virtuales]], [[preguntas-clave-onda-electromagnetica]], [[corriente-electrica]]
 - [[fotones-virtuales]] :: Excitación off-shell que media la fuerza EM en QED; existen por Heisenberg (ΔE·Δt ≥ ħ/2); medibles vía Casimir y Lamb shift.
   → [[onda-electromagnetica]], [[corriente-electrica]], [[señalizacion-diferencial]]
+- [[relatividad-general]] :: La gravedad es curvatura del espaciotiempo (Einstein 1915), no una fuerza; los objetos siguen geodésicas; G_μν = (8πG/c⁴)T_μν.
+  → [[ondas-gravitacionales]], [[lagrangiano-y-principio-de-minima-accion]], [[onda-electromagnetica]]
 - [[ondas-gravitacionales]] :: Perturbaciones del espaciotiempo (Einstein 1916, LIGO 2015 con GW150914); a diferencia de las EM, atraviesan materia sin atenuación.
-  → [[onda-electromagnetica]], [[fotones-virtuales]], [[antena-wifi-tarro-papas]]
+  → [[onda-electromagnetica]], [[fotones-virtuales]], [[relatividad-general]], [[antena-wifi-tarro-papas]]
 - [[preguntas-clave-onda-electromagnetica]] :: Checklist de repaso activo sobre [[onda-electromagnetica]]: autopropagación, E⊥H⊥k, velocidad de medio, espectro y vector de Poynting.
   → [[onda-electromagnetica]], [[corriente-electrica]], [[fast-ethernet-ieee-802-3u]], [[fotones-virtuales]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[antena-wifi-tarro-papas]], [[frecuencia-mlt3-longitud-onda-cobre]]
 
@@ -113,7 +115,6 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 
 > [!tip] Pilar de integración lógica. Estos `[[enlaces]]` aparecen en notas existentes pero no tienen archivo destino. Cada uno es una oportunidad de investigación que **ya tiene demanda** en el grafo.
 
-- `[[relatividad-general]]` ← referenciada desde [[ondas-gravitacionales]]
 - `[[efectos-biologicos-radiacion-em]]` ← referenciada desde [[espectro-electromagnetico]]
 - `[[ECMA]]` ← referenciada desde [[el-estandar-dix]] (estándares CSMA/CD paralelos a DIX)
 - `[[IEEE 802.11]]` ← referenciada desde [[el-estandar-dix]] (el legado de Ethernet en Wi-Fi)

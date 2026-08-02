@@ -203,7 +203,7 @@ Para GW150914: h ≈ 10⁻²¹. Con brazos de LIGO de L = 4.000 m:
 
 - [[onda-electromagnetica]] — ondas EM: contraste fundamental con ondas gravitacionales
 - [[fotones-virtuales]] — descripción cuántica del campo electromagnético
-- [[relatividad-general]] — *nota pendiente de crear*: marco teórico de las ondas gravitacionales
+- [[relatividad-general]] — marco teórico completo: curvatura del espaciotiempo, geodésicas y ecuaciones de campo de Einstein de las que esta nota es consecuencia dinámica
 - [[Ondas electromagnéticas - naturaleza, historia y frontera tecnológica]] — fuente principal (sección 8)
 - Proyectos: [[ ]]
 - Ideas: [[antena-wifi-tarro-papas]] — ondas EM aplicadas, contraste con detección gravitacional
