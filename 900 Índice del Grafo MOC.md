@@ -57,7 +57,9 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 - [[ecuaciones-de-maxwell]] :: Las 4 ecuaciones unifican E y B; c = 1/√(μ₀ε₀) demuestra que la luz es onda EM; la corriente de desplazamiento cierra el ciclo de autopropagación.
   → [[onda-electromagnetica]], [[fotones-virtuales]], [[corriente-electrica]], [[la-corriente-electrica-en-el-hogar]], [[señalizacion-diferencial]], [[antena-wifi-tarro-papas]]
 - [[espectro-electromagnetico]] :: Continuo de frecuencias (>20 órdenes de magnitud); la luz visible es una fracción mínima; la energía del fotón (E = hf) determina la peligrosidad.
-  → [[onda-electromagnetica]], [[ecuaciones-de-maxwell]], [[fotones-virtuales]], [[preguntas-clave-onda-electromagnetica]], [[corriente-electrica]]
+  → [[onda-electromagnetica]], [[ecuaciones-de-maxwell]], [[fotones-virtuales]], [[preguntas-clave-onda-electromagnetica]], [[corriente-electrica]], [[efectos-biologicos-radiacion-em]]
+- [[efectos-biologicos-radiacion-em]] :: El umbral de ionización (~10-12 eV) separa daño directo/indirecto al ADN de efectos meramente térmicos; la controversia de RF de baja potencia (WiFi/5G) vive en terreno sin mecanismo confirmado (IARC Grupo 2B).
+  → [[espectro-electromagnetico]], [[onda-electromagnetica]]
 - [[fotones-virtuales]] :: Excitación off-shell que media la fuerza EM en QED; existen por Heisenberg (ΔE·Δt ≥ ħ/2); medibles vía Casimir y Lamb shift.
   → [[onda-electromagnetica]], [[corriente-electrica]], [[señalizacion-diferencial]]
 - [[relatividad-general]] :: La gravedad es curvatura del espaciotiempo (Einstein 1915), no una fuerza; los objetos siguen geodésicas; G_μν = (8πG/c⁴)T_μν.
@@ -115,7 +117,6 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 
 > [!tip] Pilar de integración lógica. Estos `[[enlaces]]` aparecen en notas existentes pero no tienen archivo destino. Cada uno es una oportunidad de investigación que **ya tiene demanda** en el grafo.
 
-- `[[efectos-biologicos-radiacion-em]]` ← referenciada desde [[espectro-electromagnetico]]
 - `[[ECMA]]` ← referenciada desde [[el-estandar-dix]] (estándares CSMA/CD paralelos a DIX)
 - `[[IEEE 802.11]]` ← referenciada desde [[el-estandar-dix]] (el legado de Ethernet en Wi-Fi)
 

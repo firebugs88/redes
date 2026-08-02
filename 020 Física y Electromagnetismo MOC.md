@@ -24,6 +24,7 @@ Exploración de las leyes fundamentales que rigen la materia y la energía, con 
 - [[onda-electromagnetica|Onda Electromagnética (Nota Canónica)]]
 - [[ecuaciones-de-maxwell|Ecuaciones de Maxwell]]
 - [[espectro-electromagnetico|El Espectro Electromagnético]]
+- [[efectos-biologicos-radiacion-em|Efectos Biológicos de la Radiación EM]]
 - [[fotones-virtuales|Fotones Virtuales (Descripción Cuántica)]]
 - [[relatividad-general|Relatividad General]]
 - [[ondas-gravitacionales|Ondas Gravitacionales]]

@@ -153,7 +153,7 @@ tags:
 
 - [[onda-electromagnetica]] — nota canónica: definición, propiedades, ecuaciones de Maxwell, Cornell completo
 - [[ecuaciones-de-maxwell]] — el fundamento matemático que predice todo el espectro
-- [[efectos-biologicos-radiacion-em]] — *pendiente de crear*: efectos de la radiación EM en la salud (ionizante vs. no ionizante)
+- [[efectos-biologicos-radiacion-em]] — mecanismo biológico completo: daño ionizante directo/indirecto, efectos térmicos de RF y el consenso epidemiológico real (IARC Grupo 2B) detrás de la controversia de WiFi/5G
 - [[fotones-virtuales]] — la naturaleza cuántica: fotones como mediadores de la interacción EM
 - [[preguntas-clave-onda-electromagnetica]] — 5 preguntas esenciales de repaso
 - [[corriente-electrica]] — los electrones en movimiento como fuente de radiación EM
