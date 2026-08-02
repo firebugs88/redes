@@ -86,7 +86,9 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 - ⭐ [[historia-y-origen-de-ethernet-1973]] :: Metcalfe adapta ALOHA en Xerox PARC (1973); CSMA/CD resuelve la ineficiencia de ALOHA; el estándar abierto DIX (1980) lo lleva al mundo.
   → [[el-estandar-dix]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[internet]], [[codificacion-4b-5b-y-mlt-3]], [[modelo-tcp-ip]]
 - [[el-estandar-dix]] :: Consorcio DEC+Intel+Xerox (1980) vuelve Ethernet un estándar abierto; Ethernet II define el campo EtherType que aún usa Internet.
-  → [[historia-y-origen-de-ethernet-1973]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[internet]], [[modelo-tcp-ip]], [[onda-electromagnetica]]
+  → [[historia-y-origen-de-ethernet-1973]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[internet]], [[modelo-tcp-ip]], [[onda-electromagnetica]], [[ecma]], [[ieee-802-11]]
+- [[ecma]] :: Asociación industrial (1961) que medió entre DIX e IEEE con ECMA-82, evitando la fragmentación de Ethernet; hoy conocida por ECMAScript/JavaScript.
+  → [[el-estandar-dix]]
 - ⭐ [[fast-ethernet-ieee-802-3u]] :: 100BASE-TX (1995), 10× más rápido vía 4B/5B + MLT-3 (31,25 MHz) sobre Cat5; la señal viaja como onda EM guiada, no dentro del cobre.
   → [[historia-y-origen-de-ethernet-1973]], [[el-estandar-dix]], [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]]
 - [[codificacion-4b-5b-y-mlt-3]] :: 4B/5B garantiza transiciones para sincronización de reloj; MLT-3 (3 niveles de voltaje) reduce la frecuencia fundamental a 31,25 MHz.
@@ -96,16 +98,18 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 - [[modulacion-am-fm]] :: 🌉 Portadora fija + mensaje: AM varía la amplitud, FM la frecuencia (centro fijo, desvío ±75 kHz); FM gana inmunidad al ruido a costa de ancho de banda.
   → [[espectro-electromagnetico]], [[modulacion-digital-ask-fsk-psk]], [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]]
 - [[modulacion-digital-ask-fsk-psk]] :: 🌉 La versión digital de AM/FM: ASK/FSK/PSK conmutan (keying) amplitud/frecuencia/fase entre símbolos discretos; QAM combina amplitud+fase (plano I/Q).
-  → [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[espectro-electromagnetico]], [[onda-electromagnetica]], [[ofdm]]
+  → [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[espectro-electromagnetico]], [[onda-electromagnetica]], [[ofdm]], [[ieee-802-11]]
 - [[ofdm]] :: 🌉 Miles de subportadoras QAM ortogonales en paralelo (Δf = 1/T) vencen el multitrayecto (ISI); IFFT/FFT + prefijo cíclico lo hacen barato. Núcleo de WiFi/4G/5G.
-  → [[modulacion-digital-ask-fsk-psk]], [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[espectro-electromagnetico]], [[onda-electromagnetica]]
+  → [[modulacion-digital-ask-fsk-psk]], [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[espectro-electromagnetico]], [[onda-electromagnetica]], [[ieee-802-11]]
+- ⭐ [[ieee-802-11]] :: Wi-Fi; CSMA/CA (no CD, no se puede detectar colisión en el aire); OFDM+QAM desde 802.11a/g; MIMO (n) → MU-MIMO (ac) → OFDMA (ax/WiFi6).
+  → [[el-estandar-dix]], [[fast-ethernet-ieee-802-3u]], [[ofdm]], [[modulacion-digital-ask-fsk-psk]], [[antena-wifi-tarro-papas]]
 
 ---
 
 ## 💡 ideas (semillas sin proyecto)
 
 - [[antena-wifi-tarro-papas]] :: Cantenna casera — el tarro metálico guía y refleja la onda EM para ampliar el alcance del Wi-Fi.
-  → [[onda-electromagnetica]], [[señalizacion-diferencial]]
+  → [[onda-electromagnetica]], [[señalizacion-diferencial]], [[ieee-802-11]]
 - [[frecuencia-mlt3-longitud-onda-cobre]] :: Cálculo de cierre: λ ≈ 6,4 m para f = 31,25 MHz (MLT-3) en cobre — comparable a la longitud de muchos cables de red.
   → [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[onda-electromagnetica]]
 - [[palabras-clave-como-repaso-activo]] :: Tapar el desarrollo de una nota y reconstruirla solo desde sus palabras clave antes de leerla — usar la sección "🔑 Recuperación Activa" como práctica, no como adorno.
@@ -117,8 +121,7 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 
 > [!tip] Pilar de integración lógica. Estos `[[enlaces]]` aparecen en notas existentes pero no tienen archivo destino. Cada uno es una oportunidad de investigación que **ya tiene demanda** en el grafo.
 
-- `[[ECMA]]` ← referenciada desde [[el-estandar-dix]] (estándares CSMA/CD paralelos a DIX)
-- `[[IEEE 802.11]]` ← referenciada desde [[el-estandar-dix]] (el legado de Ethernet en Wi-Fi)
+Sin huecos pendientes por ahora — los 5 detectados en la generación anterior (`fuerza-electromotriz`, `relatividad-general`, `efectos-biologicos-radiacion-em`, `ECMA`, `IEEE 802.11`) fueron investigados y cerrados el 2026-08-02.
 
 ---
 

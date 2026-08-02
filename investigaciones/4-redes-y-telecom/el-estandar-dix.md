@@ -58,7 +58,7 @@ tags:
 
 - **Estandarización abierta:** Xerox cedió todas sus patentes al IEEE → adopción masiva.
 - **Neutralidad de protocolo:** funciona con TCP/IP, XNS, DECnet, OSI.
-- **Influencia en Wi-Fi ([[IEEE 802.11]])** y en el Internet moderno.
+- **Influencia en Wi-Fi ([[ieee-802-11|IEEE 802.11]])** y en el Internet moderno.
 - Ethernet sobrevivió a sus competidores (Token Ring, Token Bus) por ser más simple, flexible y económico.
 
 ---
@@ -128,6 +128,8 @@ tags:
 - [[internet]] — Ethernet II (DIX) es el formato de trama que transporta todos los paquetes de Internet
 - [[modelo-tcp-ip]] — TCP/IP corre sobre tramas Ethernet II, el formato definido por DIX
 - [[onda-electromagnetica]] — los fundamentos físicos del medio por donde viajan las señales Ethernet
+- [[ecma]] — el tercer actor de la negociación de estandarización, mediador entre DIX y el IEEE
+- [[ieee-802-11]] — la contraparte inalámbrica de Ethernet, heredera directa de su legado de estándar abierto
 
 ---
 

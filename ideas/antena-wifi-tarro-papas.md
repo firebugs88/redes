@@ -46,6 +46,7 @@ El tarro metálico actúa como guía de onda y reflector: concentra la señal EM
 
 - [[onda-electromagnetica]]
 - [[señalizacion-diferencial]]
+- [[ieee-802-11]] — el protocolo Wi-Fi que esta antena casera termina utilizando
 
 ---
 

@@ -133,6 +133,7 @@ Conectar OFDM con la columna física del vault: ver que **DSL (DMT) es OFDM sobr
 - Ideas: explorar **MIMO** (múltiples antenas) y **MIMO-OFDM**, la combinación real que usan WiFi 5/6 y 5G — candidata a nota propia futura.
 - Otras investigaciones:
   - [[modulacion-digital-ask-fsk-psk]] — **el predecesor directo**: OFDM transporta los símbolos **QAM** definidos ahí. Empieza por aquí si no la leíste.
+  - [[ieee-802-11]] — el protocolo real que usa esta multiplexación desde 802.11a/g, y donde 802.11ax introduce OFDMA
   - [[modulacion-am-fm]] — el origen analógico del puente: deformar una portadora con una señal continua (AM/FM).
   - [[codificacion-4b-5b-y-mlt-3]] — la prima de **banda base** sobre cobre; DSL (DMT) es OFDM por cobre, así que aquí se tocan los dos mundos.
   - [[espectro-electromagnetico]] — la capa **"dónde"** (en qué frecuencia vive la señal) frente al **"cómo"** (la estructura OFDM de esta nota); separá las capas.
