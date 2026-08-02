@@ -134,5 +134,6 @@ sr-ease: 270
 - [[corriente-electrica]] — el voltaje es la diferencia de potencial que impulsa la corriente
 - [[resistencia]] — la oposición al flujo que, junto con el voltaje, determina la corriente (Ley de Ohm)
 - [[ruptura-kvl-campos-no-conservativos]] — cuándo el modelo de voltaje como diferencia de potencial se rompe
+- [[fuerza-electromotriz]] — qué crea y sostiene la diferencia de potencial que esta nota describe (FEM ≠ voltaje)
 - [[la-corriente-electrica-en-el-hogar]] — la aplicación práctica del voltaje alterno en los tomacorrientes domésticos
 - [[020 Física y Electromagnetismo MOC]] — Mapa de Contenido de Física

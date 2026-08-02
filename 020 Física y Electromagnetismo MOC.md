@@ -16,6 +16,7 @@ Exploración de las leyes fundamentales que rigen la materia y la energía, con 
 
 ## 🔌 2 · Circuitos
 *¿Cómo se comportan los circuitos y dónde fallan las reglas simples?*
+- [[fuerza-electromotriz|Fuerza Electromotriz (FEM)]]
 - [[ruptura-kvl-campos-no-conservativos|Ruptura de KVL y Campos No Conservativos]]
 
 ## 🧲 3 · Electromagnetismo

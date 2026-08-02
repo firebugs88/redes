@@ -29,7 +29,7 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 - ⭐ [[corriente-electrica]] :: Flujo ordenado de electrones (I = dQ/dt); modelo de Drude, deriva lenta (~mm/s) vs señal de propagación casi a c.
   → [[resistencia]], [[voltaje]], [[fotones-virtuales]], [[la-composicion-de-la-materia-atomos]], [[la-corriente-electrica-en-el-hogar]], [[onda-electromagnetica]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]]
 - [[voltaje]] :: Diferencia de potencial = presión eléctrica (J/C), no cantidad de electrones; batería de 1.5 V la fija la química, no el tamaño.
-  → [[corriente-electrica]], [[resistencia]], [[ruptura-kvl-campos-no-conservativos]], [[la-corriente-electrica-en-el-hogar]]
+  → [[corriente-electrica]], [[resistencia]], [[ruptura-kvl-campos-no-conservativos]], [[la-corriente-electrica-en-el-hogar]], [[fuerza-electromotriz]]
 - [[resistencia]] :: Oposición al paso de corriente (Ω); del modelo clásico de Drude al estado sólido (fonones, Matthiessen, superconductividad); V = IR.
   → [[voltaje]], [[corriente-electrica]], [[la-corriente-electrica-en-el-hogar]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]]
 - [[la-composicion-de-la-materia-atomos]] :: Protón define identidad química, neutrón estabiliza el núcleo, electrón controla la química; 98,7% de la masa nucleónica es energía de confinamiento.
@@ -43,8 +43,10 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 
 ## ⚡ 2-circuitos
 
+- [[fuerza-electromotriz]] :: Energía por unidad de carga que un agente no conservativo (química, movimiento, flujo variable) entrega para sostener la corriente; V = ε − Ir con resistencia interna.
+  → [[voltaje]], [[corriente-electrica]], [[ruptura-kvl-campos-no-conservativos]], [[la-corriente-electrica-en-el-hogar]], [[ecuaciones-de-maxwell]]
 - [[ruptura-kvl-campos-no-conservativos]] :: KVL falla con flujo magnético variable (∂B/∂t ≠ 0); el voltaje deja de ser propiedad del punto (experimento de Lewin).
-  → [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]], [[voltaje]], [[ecuaciones-de-maxwell]]
+  → [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]], [[voltaje]], [[ecuaciones-de-maxwell]], [[fuerza-electromotriz]]
 
 ---
 
@@ -111,7 +113,6 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 
 > [!tip] Pilar de integración lógica. Estos `[[enlaces]]` aparecen en notas existentes pero no tienen archivo destino. Cada uno es una oportunidad de investigación que **ya tiene demanda** en el grafo.
 
-- `[[fuerza-electromotriz]]` ← referenciada desde [[ruptura-kvl-campos-no-conservativos]]
 - `[[relatividad-general]]` ← referenciada desde [[ondas-gravitacionales]]
 - `[[efectos-biologicos-radiacion-em]]` ← referenciada desde [[espectro-electromagnetico]]
 - `[[ECMA]]` ← referenciada desde [[el-estandar-dix]] (estándares CSMA/CD paralelos a DIX)

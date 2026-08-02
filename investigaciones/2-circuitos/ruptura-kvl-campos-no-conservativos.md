@@ -134,8 +134,7 @@ $$\mathbf{E} = -\nabla V - \frac{\partial \mathbf{A}}{\partial t}$$
 
 ## 🔗 Relacionado
 
-- Otras investigaciones: [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]]
+- Otras investigaciones: [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]], [[fuerza-electromotriz]] — el concepto general de FEM (química, movimiento, transformador) que esta nota aplica al caso específico de por qué falla KVL
 - Conceptos relacionados: [[voltaje]], [[ecuaciones-de-maxwell]]
-- Conceptos por crear: [[fuerza-electromotriz]]
 - Recursos fuente: [[Investigación Profunda del Voltaje Eléctrico]]
 - MOC: [[020 Física y Electromagnetismo MOC]]
