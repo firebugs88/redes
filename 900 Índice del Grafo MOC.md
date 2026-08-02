@@ -1,6 +1,6 @@
 ---
 type: indice-grafo
-generado: 2026-07-03
+generado: 2026-08-02
 generado-por: skill indexador-grafo
 nota: Archivo GENERADO AUTOMÁTICAMENTE. No editar a mano — se regenera con la skill `indexador-grafo`.
 tags:
@@ -26,82 +26,82 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 
 ## 🔌 1-fundamentos (física fundamental)
 
-- ⭐ [[corriente-electrica]] :: Flujo ordenado de electrones en un conductor (I = dQ/dt); modelo de Drude, deriva lenta (~mm/s) vs señal casi a c.
+- ⭐ [[corriente-electrica]] :: Flujo ordenado de electrones (I = dQ/dt); modelo de Drude, deriva lenta (~mm/s) vs señal de propagación casi a c.
   → [[resistencia]], [[voltaje]], [[fotones-virtuales]], [[la-composicion-de-la-materia-atomos]], [[la-corriente-electrica-en-el-hogar]], [[onda-electromagnetica]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]]
-- [[voltaje]] :: Diferencia de potencial = presión eléctrica (J/C), no cantidad de electrones; batería de 1.5 V.
-  → [[resistencia]], [[corriente-electrica]], [[ruptura-kvl-campos-no-conservativos]], [[la-corriente-electrica-en-el-hogar]]
-- [[resistencia]] :: Oposición al paso de corriente (Ω); del modelo clásico al estado sólido; V = IR.
+- [[voltaje]] :: Diferencia de potencial = presión eléctrica (J/C), no cantidad de electrones; batería de 1.5 V la fija la química, no el tamaño.
+  → [[corriente-electrica]], [[resistencia]], [[ruptura-kvl-campos-no-conservativos]], [[la-corriente-electrica-en-el-hogar]]
+- [[resistencia]] :: Oposición al paso de corriente (Ω); del modelo clásico de Drude al estado sólido (fonones, Matthiessen, superconductividad); V = IR.
   → [[voltaje]], [[corriente-electrica]], [[la-corriente-electrica-en-el-hogar]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]]
-- [[la-composicion-de-la-materia-atomos]] :: Protón define identidad química, neutrón estabiliza el núcleo, electrón controla la química; 98,7% de la masa es energía de confinamiento.
+- [[la-composicion-de-la-materia-atomos]] :: Protón define identidad química, neutrón estabiliza el núcleo, electrón controla la química; 98,7% de la masa nucleónica es energía de confinamiento.
   → [[corriente-electrica]], [[fotones-virtuales]], [[onda-electromagnetica]], [[voltaje]]
-- [[la-corriente-electrica-en-el-hogar]] :: De la inducción de Faraday → transmisión a 400 kV → cableado domiciliario; CA, efecto Joule.
+- [[la-corriente-electrica-en-el-hogar]] :: De la inducción de Faraday → transmisión a 400 kV (P = I²R) → cableado domiciliario; la CA ganó por los transformadores.
   → [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]]
-- [[lagrangiano-y-principio-de-minima-accion]] :: L = T − V, acción S = ∫L dt; la naturaleza elige el camino de acción estacionaria.
+- [[lagrangiano-y-principio-de-minima-accion]] :: L = T − V, acción S = ∫L dt; la naturaleza elige el camino de acción estacionaria (Euler-Lagrange ≡ Newton).
   → [[ecuaciones-de-maxwell]], [[onda-electromagnetica]], [[ondas-gravitacionales]], [[corriente-electrica]], [[voltaje]]
 
 ---
 
 ## ⚡ 2-circuitos
 
-- [[ruptura-kvl-campos-no-conservativos]] :: KVL falla con flujo magnético variable; el voltaje deja de ser propiedad del punto (experimento de Lewin).
-  → [[ecuaciones-de-maxwell]], [[señalizacion-diferencial]], [[onda-electromagnetica]], [[corriente-electrica]], [[voltaje]]
+- [[ruptura-kvl-campos-no-conservativos]] :: KVL falla con flujo magnético variable (∂B/∂t ≠ 0); el voltaje deja de ser propiedad del punto (experimento de Lewin).
+  → [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]], [[voltaje]], [[ecuaciones-de-maxwell]]
 
 ---
 
 ## 🌈 3-electromagnetismo
 
-- ⭐ [[onda-electromagnetica]] :: Campos E y H perpendiculares que se propagan sin medio; la energía viaja en el campo (vector de Poynting), guiada en el cable Ethernet.
-  → [[fotones-virtuales]], [[corriente-electrica]], [[fast-ethernet-ieee-802-3u]], [[preguntas-clave-onda-electromagnetica]]
-- [[ecuaciones-de-maxwell]] :: Las 4 ecuaciones unifican E y B; c = 1/√(μ₀ε₀) demuestra que la luz es una onda EM.
-  → [[onda-electromagnetica]], [[fotones-virtuales]], [[corriente-electrica]], [[señalizacion-diferencial]]
-- [[espectro-electromagnetico]] :: Continuo de frecuencias (>20 órdenes de magnitud); la luz visible es una fracción mínima; la energía del fotón determina la peligrosidad (ionizante vs no).
-  → [[onda-electromagnetica]], [[fotones-virtuales]], [[ecuaciones-de-maxwell]], [[preguntas-clave-onda-electromagnetica]], [[corriente-electrica]]
-- [[fotones-virtuales]] :: Excitación off-shell que media la fuerza EM en QED; existen por Heisenberg; medibles vía Casimir y Lamb shift.
-  → [[corriente-electrica]], [[onda-electromagnetica]], [[señalizacion-diferencial]]
-- [[ondas-gravitacionales]] :: Perturbaciones del espaciotiempo (Einstein 1916, LIGO 2015); GW170817 inauguró la astronomía multimensajero.
-  → [[onda-electromagnetica]], [[fotones-virtuales]]
-- [[preguntas-clave-onda-electromagnetica]] :: Herramienta de repaso activo (checklist de comprensión) de [[onda-electromagnetica]].
-  → [[onda-electromagnetica]], [[corriente-electrica]], [[fast-ethernet-ieee-802-3u]], [[fotones-virtuales]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]]
+- ⭐ [[onda-electromagnetica]] :: Campos E y H perpendiculares autosostenidos (Faraday + Ampère-Maxwell) que se propagan sin medio; la energía viaja en el campo (Poynting), guiada en el cable Ethernet.
+  → [[fotones-virtuales]], [[fast-ethernet-ieee-802-3u]], [[preguntas-clave-onda-electromagnetica]]
+- [[ecuaciones-de-maxwell]] :: Las 4 ecuaciones unifican E y B; c = 1/√(μ₀ε₀) demuestra que la luz es onda EM; la corriente de desplazamiento cierra el ciclo de autopropagación.
+  → [[onda-electromagnetica]], [[fotones-virtuales]], [[corriente-electrica]], [[la-corriente-electrica-en-el-hogar]], [[señalizacion-diferencial]], [[antena-wifi-tarro-papas]]
+- [[espectro-electromagnetico]] :: Continuo de frecuencias (>20 órdenes de magnitud); la luz visible es una fracción mínima; la energía del fotón (E = hf) determina la peligrosidad.
+  → [[onda-electromagnetica]], [[ecuaciones-de-maxwell]], [[fotones-virtuales]], [[preguntas-clave-onda-electromagnetica]], [[corriente-electrica]]
+- [[fotones-virtuales]] :: Excitación off-shell que media la fuerza EM en QED; existen por Heisenberg (ΔE·Δt ≥ ħ/2); medibles vía Casimir y Lamb shift.
+  → [[onda-electromagnetica]], [[corriente-electrica]], [[señalizacion-diferencial]]
+- [[ondas-gravitacionales]] :: Perturbaciones del espaciotiempo (Einstein 1916, LIGO 2015 con GW150914); a diferencia de las EM, atraviesan materia sin atenuación.
+  → [[onda-electromagnetica]], [[fotones-virtuales]], [[antena-wifi-tarro-papas]]
+- [[preguntas-clave-onda-electromagnetica]] :: Checklist de repaso activo sobre [[onda-electromagnetica]]: autopropagación, E⊥H⊥k, velocidad de medio, espectro y vector de Poynting.
+  → [[onda-electromagnetica]], [[corriente-electrica]], [[fast-ethernet-ieee-802-3u]], [[fotones-virtuales]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[antena-wifi-tarro-papas]], [[frecuencia-mlt3-longitud-onda-cobre]]
 
 ---
 
 ## 🌐 4-redes-y-telecom
 
-- ⭐ [[internet]] :: Red de redes; ARPANET (1969) y conmutación de paquetes; TCP/IP (1983) como momento fundacional.
-  → [[nsfnet]], [[modelo-tcp-ip]], [[rfc]], [[historia-y-origen-de-ethernet-1973]], [[historia-y-evolucion-del-internet-arpanet]]
-- [[modelo-tcp-ip]] :: Familia de protocolos en 4 capas; encapsulación; el lenguaje universal de Internet.
+- ⭐ [[internet]] :: Red de redes; ARPANET (1969) y conmutación de paquetes; TCP/IP (1983, "Día de la Bandera") como momento fundacional.
+  → [[modelo-tcp-ip]], [[nsfnet]], [[rfc]], [[historia-y-origen-de-ethernet-1973]]
+- [[modelo-tcp-ip]] :: Familia de protocolos en 4 capas (Acceso-Internet-Transporte-Aplicación) unidas por encapsulación; estándar de facto desde 1983.
   → [[internet]], [[rfc]], [[nsfnet]], [[historia-y-origen-de-ethernet-1973]], [[el-estandar-dix]]
-- [[modelo-osi]] :: Arquitectura de red en 7 capas (ISO 1984); el emisor encapsula y el receptor desencapsula.
+- [[modelo-osi]] :: Arquitectura de red en 7 capas (ISO 1984); el emisor encapsula y el receptor desencapsula; en la práctica Internet corre TCP/IP.
   → [[modelo-tcp-ip]], [[internet]], [[historia-y-origen-de-ethernet-1973]], [[el-estandar-dix]], [[rfc]]
-- [[rfc]] :: Documentos fundacionales (inmutables) que definen los protocolos de Internet; RFC 791/793/792.
+- [[rfc]] :: Documentos fundacionales e inmutables de Internet (IETF); RFC 791/792/793 (1981) definieron IP/ICMP/TCP.
   → [[internet]], [[modelo-tcp-ip]]
-- [[nsfnet]] :: Backbone académico (1985) entre ARPANET y el Internet comercial; desmantelada en 1995.
-  → [[internet]], [[modelo-tcp-ip]], [[historia-y-evolucion-del-internet-arpanet]]
-- ⭐ [[historia-y-origen-de-ethernet-1973]] :: Metcalfe adapta ALOHA en Xerox PARC; CSMA/CD; el estándar abierto DIX.
+- [[nsfnet]] :: Backbone académico (1985) entre ARPANET y el Internet comercial; su privatización en 1995 dio origen a los ISPs.
+  → [[internet]], [[modelo-tcp-ip]]
+- ⭐ [[historia-y-origen-de-ethernet-1973]] :: Metcalfe adapta ALOHA en Xerox PARC (1973); CSMA/CD resuelve la ineficiencia de ALOHA; el estándar abierto DIX (1980) lo lleva al mundo.
   → [[el-estandar-dix]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[internet]], [[codificacion-4b-5b-y-mlt-3]], [[modelo-tcp-ip]]
-- [[el-estandar-dix]] :: Consorcio DEC-Intel-Xerox vuelve Ethernet un estándar abierto; trama Ethernet II y campo EtherType.
-  → [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[historia-y-origen-de-ethernet-1973]], [[internet]], [[modelo-tcp-ip]], [[onda-electromagnetica]]
-- ⭐ [[fast-ethernet-ieee-802-3u]] :: 100BASE-TX (1995); cadena 4B/5B + MLT-3; la señal viaja en el campo EM que rodea el par trenzado.
-  → [[codificacion-4b-5b-y-mlt-3]], [[historia-y-origen-de-ethernet-1973]], [[el-estandar-dix]], [[onda-electromagnetica]], [[señalizacion-diferencial]]
-- [[codificacion-4b-5b-y-mlt-3]] :: 4B/5B asegura sincronía de reloj; MLT-3 baja la frecuencia fundamental a 31,25 MHz; por qué 100 Mbps caben en Cat5.
+- [[el-estandar-dix]] :: Consorcio DEC+Intel+Xerox (1980) vuelve Ethernet un estándar abierto; Ethernet II define el campo EtherType que aún usa Internet.
+  → [[historia-y-origen-de-ethernet-1973]], [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[internet]], [[modelo-tcp-ip]], [[onda-electromagnetica]]
+- ⭐ [[fast-ethernet-ieee-802-3u]] :: 100BASE-TX (1995), 10× más rápido vía 4B/5B + MLT-3 (31,25 MHz) sobre Cat5; la señal viaja como onda EM guiada, no dentro del cobre.
+  → [[historia-y-origen-de-ethernet-1973]], [[el-estandar-dix]], [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]]
+- [[codificacion-4b-5b-y-mlt-3]] :: 4B/5B garantiza transiciones para sincronización de reloj; MLT-3 (3 niveles de voltaje) reduce la frecuencia fundamental a 31,25 MHz.
   → [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[historia-y-origen-de-ethernet-1973]], [[onda-electromagnetica]], [[corriente-electrica]]
-- [[señalizacion-diferencial]] :: Datos como diferencia de voltaje entre dos conductores; el par trenzado cancela el ruido de modo común (CMRR).
-  → [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]], [[fast-ethernet-ieee-802-3u]]
-- [[modulacion-am-fm]] :: Cómo una portadora EM lleva información: AM varía su amplitud, FM su frecuencia (centro fijo, desvío ±75 kHz); FM gana inmunidad al ruido a cambio de ancho de banda.
-  → [[espectro-electromagnetico]], [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[modulacion-digital-ask-fsk-psk]]
-- [[modulacion-digital-ask-fsk-psk]] :: La versión digital de AM/FM: ASK/FSK/PSK conmutan amplitud/frecuencia/fase entre valores discretos (símbolos); QAM combina amplitud+fase (WiFi/5G). Banda base vs paso banda cierra el puente con la codificación.
+- ⭐ [[señalizacion-diferencial]] :: Datos como diferencia de voltaje entre dos conductores (V_diff = V₁−V₂); el par trenzado cancela el ruido de modo común (CMRR).
+  → [[fast-ethernet-ieee-802-3u]], [[codificacion-4b-5b-y-mlt-3]], [[onda-electromagnetica]]
+- [[modulacion-am-fm]] :: 🌉 Portadora fija + mensaje: AM varía la amplitud, FM la frecuencia (centro fijo, desvío ±75 kHz); FM gana inmunidad al ruido a costa de ancho de banda.
+  → [[espectro-electromagnetico]], [[modulacion-digital-ask-fsk-psk]], [[onda-electromagnetica]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]]
+- [[modulacion-digital-ask-fsk-psk]] :: 🌉 La versión digital de AM/FM: ASK/FSK/PSK conmutan (keying) amplitud/frecuencia/fase entre símbolos discretos; QAM combina amplitud+fase (plano I/Q).
   → [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[señalizacion-diferencial]], [[espectro-electromagnetico]], [[onda-electromagnetica]], [[ofdm]]
-- [[ofdm]] :: Miles de subportadoras QAM ortogonales en paralelo: símbolos largos inmunes al multitrayecto; IFFT/FFT + prefijo cíclico lo hacen barato y robusto. Núcleo de WiFi/4G/5G; OFDMA lo reparte entre usuarios.
+- [[ofdm]] :: 🌉 Miles de subportadoras QAM ortogonales en paralelo (Δf = 1/T) vencen el multitrayecto (ISI); IFFT/FFT + prefijo cíclico lo hacen barato. Núcleo de WiFi/4G/5G.
   → [[modulacion-digital-ask-fsk-psk]], [[modulacion-am-fm]], [[codificacion-4b-5b-y-mlt-3]], [[espectro-electromagnetico]], [[onda-electromagnetica]]
 
 ---
 
 ## 💡 ideas (semillas sin proyecto)
 
-- [[antena-wifi-tarro-papas]] :: Cantenna casera — el tarro metálico guía y refleja la onda EM para ampliar el Wi-Fi.
-  → [[onda-electromagnetica]]
-- [[frecuencia-mlt3-longitud-onda-cobre]] :: Calcular λ de 31,25 MHz en cobre (v ≈ ⅔ c); conecta redes con ondas EM en medios materiales.
-  → [[codificacion-4b-5b-y-mlt-3]], [[onda-electromagnetica]]
+- [[antena-wifi-tarro-papas]] :: Cantenna casera — el tarro metálico guía y refleja la onda EM para ampliar el alcance del Wi-Fi.
+  → [[onda-electromagnetica]], [[señalizacion-diferencial]]
+- [[frecuencia-mlt3-longitud-onda-cobre]] :: Cálculo de cierre: λ ≈ 6,4 m para f = 31,25 MHz (MLT-3) en cobre — comparable a la longitud de muchos cables de red.
+  → [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[onda-electromagnetica]]
 
 ---
 
@@ -110,19 +110,16 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 > [!tip] Pilar de integración lógica. Estos `[[enlaces]]` aparecen en notas existentes pero no tienen archivo destino. Cada uno es una oportunidad de investigación que **ya tiene demanda** en el grafo.
 
 - `[[fuerza-electromotriz]]` ← referenciada desde [[ruptura-kvl-campos-no-conservativos]]
-- `[[relatividad-general]]` ← referenciada desde [[ondas-gravitacionales]], [[lagrangiano-y-principio-de-minima-accion]]
+- `[[relatividad-general]]` ← referenciada desde [[ondas-gravitacionales]]
 - `[[efectos-biologicos-radiacion-em]]` ← referenciada desde [[espectro-electromagnetico]]
 - `[[ECMA]]` ← referenciada desde [[el-estandar-dix]] (estándares CSMA/CD paralelos a DIX)
 - `[[IEEE 802.11]]` ← referenciada desde [[el-estandar-dix]] (el legado de Ethernet en Wi-Fi)
-
-> [!check] Enlaces rotos corregidos (2026-07-03)
-> Los enlaces rotos detectados en la generación anterior fueron corregidos en las notas de origen: typo en [[el-estandar-dix]], prefijo `la-` faltante en [[ecuaciones-de-maxwell]] y 7 enlaces estilo ruta (`[[investigaciones/...]]`) en [[la-composicion-de-la-materia-atomos]].
 
 ---
 
 ## 📚 Material fuente (recursos/, no son nodos del grafo conceptual)
 
-Documentos en bruto de los que se destilaron las notas anteriores: `recursos/historia-y-evolucion-del-internet-arpanet.md`, investigaciones de voltaje/resistencia/ondas EM en PDF y exportes de Gemini/Perplexity. Consultar solo si la nota destilada no basta.
+Documentos en bruto de los que se destilaron las notas anteriores: `recursos/historia-y-evolucion-del-internet-arpanet.md`, `recursos/Investigación Profunda del Voltaje Eléctrico.md`, `recursos/Investigación Onda Electromagnética Universitaria - gemini.md`, `recursos/Ondas electromagnéticas - naturaleza, historia y frontera tecnológica.md`, `recursos/ondas-electromagneticas-ppxty.md`. Consultar solo si la nota destilada no basta.
 
 ---
 
