@@ -22,6 +22,7 @@ Accede a los nodos centrales de cada disciplina:
 ## 💡 Ideas en Proceso
 - [[antena-wifi-tarro-papas|Antena de tarro de papas]]
 - [[frecuencia-mlt3-longitud-onda-cobre|Frecuencia MLT-3 y Cobre]]
+- [[palabras-clave-como-repaso-activo|Palabras clave como recuperación activa]]
 
 ---
 > "La información aislada es ruido; la información conectada es conocimiento."

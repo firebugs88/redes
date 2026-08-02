@@ -102,6 +102,8 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
   → [[onda-electromagnetica]], [[señalizacion-diferencial]]
 - [[frecuencia-mlt3-longitud-onda-cobre]] :: Cálculo de cierre: λ ≈ 6,4 m para f = 31,25 MHz (MLT-3) en cobre — comparable a la longitud de muchos cables de red.
   → [[fast-ethernet-ieee-802-3u]], [[señalizacion-diferencial]], [[onda-electromagnetica]]
+- [[palabras-clave-como-repaso-activo]] :: Tapar el desarrollo de una nota y reconstruirla solo desde sus palabras clave antes de leerla — usar la sección "🔑 Recuperación Activa" como práctica, no como adorno.
+  → [[onda-electromagnetica]], [[preguntas-clave-onda-electromagnetica]]
 
 ---
 
