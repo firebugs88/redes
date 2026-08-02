@@ -104,7 +104,7 @@ Cada pausa del ritual diario tiene una skill dueña; el resto son mantenimiento 
 | `revision-semanal` | Checklist de revisión semanal (inbox, proyectos, repasos atrasados, feynman pendiente) |
 | `creador-anki` | Tarjetas Anki (junto al agente `anki-tarjetas-estudio`) |
 
-Agentes (`.claude/agents/`): `profesor-fisica` (tutor que persiste explicaciones como notas) · `anki-tarjetas-estudio` (tarjetas de estudio).
+Agentes (`.claude/agents/`): `profesor-fisica` (tutor que persiste explicaciones como notas) · `anki-tarjetas-estudio` (tarjetas de estudio) · `tutor-boveda` (consulta rápida de solo lectura sobre lo ya investigado, sin crear ni editar notas).
 
 Skills de git (`.claude/skills/`): utilidades del flujo con git, operan sobre el repositorio (no sobre la bóveda) y no se solapan entre sí. `revisar-cambios-git` (audita el árbol sin confirmar en busca de secretos/riesgos; solo lectura) · `escribir-commit` (redacta mensajes por el porqué y divide en commits atómicos con plan de staging por ruta) · `rescate-git` (recupera trabajo perdido priorizando no empeorar el daño).
 
