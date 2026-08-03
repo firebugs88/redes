@@ -1,0 +1,1 @@
+- [Temas frecuentes y confusiones del usuario](user_temas_frecuentes.md) — qué vuelve a preguntar, y qué preguntas de repaso ya usé por nota
