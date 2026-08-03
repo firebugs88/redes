@@ -12,9 +12,9 @@ keywords:
   - 4B/5B
   - 125 Mbaud
   - Cat5
-review-count: 1
-ultimo-review: 2026-07-06
-next-review: 2026-07-18
+review-count: 2
+ultimo-review: 2026-08-02
+next-review: 2026-08-09
 nivel-retencion: 1
 tags:
   - research
@@ -110,6 +110,7 @@ Conectar con [[codificacion-4b-5b-y-mlt-3]] para profundizar en la capa PCS/PMA 
 | 4   | Día 14    | 2026-06-17 | ✅ / ⚠️ / ❌     |        |
 | 5   | Día 30    | 2026-07-03 | ✅ / ⚠️ / ❌     |        |
 | 6   | Reinicio Día 7 | 2026-07-06 | ✅         | Reforzado: MLT-3 cambia con cada '1' (4 unos = 1 ciclo → ÷4) · límite Cat5 = atenuación/efecto skin (no calor) · geometría de Poynting · CMRR del trenzado. Próximo: 2026-07-13 |
+| 7   | Repite Día 7 | 2026-08-02 | ⚠️        | Año de estandarización confundido (dijo 1989, es 1995); frecuencia MLT-3 (dijo 32,25 MHz, es 31,25 MHz, autocorregido). Se repite intervalo. Próximo: 2026-08-09 |
 
 
 ---

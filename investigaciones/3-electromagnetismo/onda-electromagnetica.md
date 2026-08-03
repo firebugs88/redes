@@ -4,10 +4,10 @@ fuente: Estudio propio (síntesis de notas de Corriente Eléctrica, Fast Etherne
 fecha: 2026-06-03
 relevancia: alta
 dominio: física / electromagnetismo / redes
-review-count: 1
-ultimo-review: 2026-06-27
-next-review: 2026-07-18
-nivel-retencion: 1
+review-count: 2
+ultimo-review: 2026-08-02
+next-review: 2026-08-03
+nivel-retencion: 0
 tags:
   - research
   - tema/física
@@ -126,6 +126,7 @@ Conectar este concepto con la codificación MLT-3: cada transición de nivel en 
 | 1 (Día 1)  | 2026-06-27 | ✅             | Reinicio desde Día 1 tras hueco largo |
 | 2 (Día 7)  | 2026-07-04 | ✅ / ⚠️ / ❌     |        |
 | 3 (Día 30) | 2026-07-27 | ✅ / ⚠️ / ❌     |        |
+| 4 (Reinicio Día 1) | 2026-08-02 | ⚠️ | Hueco parcial en "por qué no necesita medio" y hueco total en relación E-H-k — resueltos con profesor-fisica (se enriqueció la nota con 2 filas Cornell + 1 Loci). +36 días de deuda → reinicio Día 1. Próximo: 2026-08-03 |
 
 ---
 ![[Nota-15-05-26.jpg]]

@@ -4,9 +4,9 @@ fuente: Estudio propio (señalización eléctrica en redes)
 fecha: 2026-04-12
 relevancia: alta
 dominio: física / redes / capa física
-review-count: 1
-ultimo-review: 2026-06-30
-next-review: 2026-07-18
+review-count: 2
+ultimo-review: 2026-08-02
+next-review: 2026-08-03
 nivel-retencion: 0
 tags:
   - research
@@ -85,6 +85,7 @@ Receptor diferencial           ← lee V_diff, ignora V_cm
 | 3 | 2026-06-10 | ✅ / ⚠️ / ❌ | |
 | 4 | 2026-06-17 | ✅ / ⚠️ / ❌ | |
 | 5 | 2026-07-03 | ✅ / ⚠️ / ❌ | |
+| 6 (Reinicio Día 1) | 2026-08-02 | ⚠️ | No conocía la definición de CMRR; concepto erróneo sobre el trenzado (creía que los 2 hilos de un par llevan distinto número de vueltas — en realidad se trenzan juntos con la misma tasa; la diferencia de trenzado es ENTRE pares, no dentro de un par). +33 días de deuda → reinicio Día 1. Próximo: 2026-08-03 |
 
 ---
 

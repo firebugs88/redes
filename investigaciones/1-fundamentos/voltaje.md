@@ -4,10 +4,10 @@ fuente: Estudio propio (fundamentos, historia y aplicaciones)
 fecha: 2026-05-28
 relevancia: alta
 dominio: física/electromagnetismo
-review-count: 1
-ultimo-review: 2026-06-28
-next-review: 2026-07-18
-nivel-retencion: 1
+review-count: 2
+ultimo-review: 2026-08-02
+next-review: 2026-08-03
+nivel-retencion: 0
 tags:
   - research
   - tema/física
@@ -126,6 +126,7 @@ sr-ease: 270
 | 3 | 2026-06-10 | ✅ / ⚠️ / ❌    |        |
 | 4 | 2026-06-17 | ✅ / ⚠️ / ❌    |        |
 | 5 | 2026-07-03 | ✅ / ⚠️ / ❌    |        |
+| 6 (Reinicio Día 1) | 2026-08-02 | ⚠️ | Confundió cifra de electrones/culombio (dijo 2,642×10¹⁸, es 6,242×10¹⁸); no recordaba el significado energético de 1.5V, resuelto con tutor-boveda. +35 días de deuda → reinicio Día 1. Próximo: 2026-08-03 |
 
 ---
 
