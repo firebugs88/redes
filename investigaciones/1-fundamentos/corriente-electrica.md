@@ -4,10 +4,10 @@ fuente: Estudio propio (fundamentos, historia y aplicaciones)
 fecha: 2026-04-09
 relevancia: alta
 dominio: física / electromagnetismo
-review-count: 2
-ultimo-review: 2026-07-27
-next-review: 2026-08-17
-nivel-retencion: 1
+review-count: 3
+ultimo-review: 2026-08-23
+next-review: 2026-09-22
+nivel-retencion: 2
 tags:
   - research
   - tema/física
@@ -809,7 +809,7 @@ Analogía: Piedras o estrechamientos dentro de la tubería.
 | 1 (Día 1)  | 2026-06-27 | ✅             | Reinicio desde Día 1 tras hueco largo |
 | 2 (Día 7)  | 2026-07-04 | — | Repaso no realizado (sin registrar) |
 | 3 (Día 30) | 2026-07-27 | ⚠️             | Deriva y trinidad V/I/R sólidas; la razón de fondo del triunfo de AC (el transformador solo funciona con corriente variable) necesitó explicación — se repite el intervalo |
-| 4 (repite) | 2026-08-10 | ✅ / ⚠️ / ❌     |        |
+| 4 (repite) | 2026-08-23 | ✅ | Salió completo: la separación deriva (~0,45 mm/s) vs. propagación (~2×10⁸ m/s), el mecanismo de fondo (repulsión mutua, "la señal es la ola, no el agua"), la causa de la lentitud (choques con la red de iones) y que en AC los electrones vibran sin cruzar el cable. **Día 7 consolidado** → `nivel-retencion: 2`. Próximo: Día 30 = 2026-09-22 |
 
 ---
 

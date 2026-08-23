@@ -4,10 +4,10 @@ fuente: Estudio propio (fundamentos, historia y aplicaciones)
 fecha: 2026-05-28
 relevancia: alta
 dominio: física/electromagnetismo
-review-count: 2
-ultimo-review: 2026-08-02
-next-review: 2026-08-03
-nivel-retencion: 0
+review-count: 3
+ultimo-review: 2026-08-23
+next-review: 2026-08-30
+nivel-retencion: 1
 tags:
   - research
   - tema/física
@@ -127,6 +127,7 @@ sr-ease: 270
 | 4 | 2026-06-17 | ✅ / ⚠️ / ❌    |        |
 | 5 | 2026-07-03 | ✅ / ⚠️ / ❌    |        |
 | 6 (Reinicio Día 1) | 2026-08-02 | ⚠️ | Confundió cifra de electrones/culombio (dijo 2,642×10¹⁸, es 6,242×10¹⁸); no recordaba el significado energético de 1.5V, resuelto con tutor-boveda. +35 días de deuda → reinicio Día 1. Próximo: 2026-08-03 |
+| 7 (Día 1 — reintento) | 2026-08-23 | ✅ | Llegó con 20 días de atraso, pero el núcleo salió limpio: J/C como energía **por** carga (no cantidad de carga), el porqué de que AAA y D den ambas 1,5 V (termodinámica de los químicos, el tamaño es capacidad) y la distinción presión/caudal. **Día 1 consolidado** → `nivel-retencion: 1`. Próximo: Día 7 = 2026-08-30 |
 
 ---
 

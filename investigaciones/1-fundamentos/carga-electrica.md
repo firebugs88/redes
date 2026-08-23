@@ -4,9 +4,9 @@ fuente: Explicación del profesor de física (sesión con el asistente)
 fecha: 2026-08-12
 relevancia: alta
 dominio: física / fundamentos - electromagnetismo
-review-count: 0
-ultimo-review: 2026-08-12
-next-review: 2026-08-24
+review-count: 1
+ultimo-review: 2026-08-23
+next-review: 2026-08-26
 nivel-retencion: 0
 tags:
   - research
@@ -454,12 +454,13 @@ Todo lo anterior no es física de museo — es exactamente lo que pasa en tu cab
 
 | # | Fecha | ¿Recordé bien? | Ajuste |
 |---|-------|-----------------|--------|
-| 1 (Día 1) | 2026-08-24 | ✅ / ⚠️ / ❌ | |
-| 2 (Día 3) | 2026-08-26 | ✅ / ⚠️ / ❌ | |
-| 3 (Día 7) | 2026-08-30 | ✅ / ⚠️ / ❌ | |
-| 4 (Día 14) | 2026-09-06 | ✅ / ⚠️ / ❌ | |
-| 5 (Día 30) | 2026-09-22 | ✅ / ⚠️ / ❌ | |
-| 6 (Día 60) | 2026-10-22 | ✅ / ⚠️ / ❌ | |
+| 1 (Día 1) | 2026-08-23 | ⚠️ | Adelantado un día. Los tres pilares salieron, pero a medias en el bloque de quarks — material restaurado ese mismo día y aún no leído: el reencuadre en unidades de $e/3$ y las dos vías que fijan $N_c=3$ (anomalías / tracelessness). **Día 1 no consolidado** → `nivel-retencion: 0`, se repite. Próximo: 2026-08-26 |
+| 2 (Día 1 — repite) | 2026-08-26 | ✅ / ⚠️ / ❌ | Foco: §3 (por qué el denominador es 3) |
+| 3 (Día 3) | 2026-08-29 | ✅ / ⚠️ / ❌ | |
+| 4 (Día 7) | 2026-09-02 | ✅ / ⚠️ / ❌ | |
+| 5 (Día 14) | 2026-09-09 | ✅ / ⚠️ / ❌ | |
+| 6 (Día 30) | 2026-09-25 | ✅ / ⚠️ / ❌ | |
+| 7 (Día 60) | 2026-10-25 | ✅ / ⚠️ / ❌ | |
 
 ---
 
