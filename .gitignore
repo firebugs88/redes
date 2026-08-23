@@ -13,3 +13,6 @@ Desktop.ini
 
 # Node / plugin dev
 node_modules/
+
+# Claude Code worktrees
+.claude/worktrees/
