@@ -19,6 +19,7 @@ tags:
 - **2026-06-26 · Eficiencia de tokens:** Es un objetivo explícito del proyecto. Prefiere navegar el grafo (índice) a escanear carpetas. Sé económico.
 - **2026-06-26 · Transparencia y curación:** Quiere poder ver y podar lo que el sistema guarda. Eligió memoria en la bóveda (git-sync) sobre memoria automática pero invisible.
 - **2026-06-26 · Formato:** Le funcionan tablas, callouts de Obsidian y estructura clara con encabezados. Su CLAUDE.md lo confirma.
+- **2026-08-17 · Cupo de repaso real = 3/día (no 5):** Ante 28 notas atrasadas eligió bajar el presupuesto al objetivo (3) en vez de forzar el máximo (5). El máximo de 5 de CLAUDE.md es techo, no meta. Planifica los lotes de repaso a 3 salvo que él pida lo contrario.
 
 ## 🔗 Relacionado
 
