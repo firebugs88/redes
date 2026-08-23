@@ -6,7 +6,7 @@ relevancia: media
 dominio: Física fundamental / estructura atómica
 review-count: 0
 ultimo-review: 2026-06-01
-next-review: 2026-08-05
+next-review: 2026-08-24
 nivel-retencion: 0
 tags:
   - research
@@ -115,6 +115,7 @@ tags:
 
 ## 🔗 Relacionado
 
+- Otras investigaciones: [[carga-electrica]] — la propiedad que portan protones, electrones y quarks: cuantización, conservación y ley de Coulomb
 - Otras investigaciones: [[corriente-electrica]] — los electrones de valencia como portadores de carga en conductores
 - Otras investigaciones: [[fotones-virtuales]] — mediadores de la fuerza electromagnética (complemento a gluones/fuerza fuerte)
 - Otras investigaciones: [[onda-electromagnetica]] — cargas aceleradas generan ondas EM

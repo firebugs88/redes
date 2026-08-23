@@ -8,6 +8,7 @@ Exploración de las leyes fundamentales que rigen la materia y la energía, con 
 ## 🔬 1 · Fundamentos de la Materia
 *¿De qué está hecho todo? Carga, átomos y magnitudes eléctricas.*
 - [[la-composicion-de-la-materia-atomos|La composición de la materia (Átomos)]]
+- [[carga-electrica|La Carga Eléctrica (Nota Raíz de los Fundamentos)]]
 - [[corriente-electrica|Corriente Eléctrica (Nota Canónica)]]
 - [[voltaje|El Voltaje y el Funcionamiento de una Batería]]
 - [[resistencia|La Resistencia Eléctrica (Modelo a Estado Sólido)]]

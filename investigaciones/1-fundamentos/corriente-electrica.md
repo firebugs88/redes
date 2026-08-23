@@ -6,7 +6,7 @@ relevancia: alta
 dominio: física / electromagnetismo
 review-count: 2
 ultimo-review: 2026-07-27
-next-review: 2026-08-10
+next-review: 2026-08-17
 nivel-retencion: 1
 tags:
   - research
@@ -37,6 +37,9 @@ tags:
 ## 1. Fundamentos físicos
 
 ### La carga eléctrica y la cuantización de la naturaleza
+
+> [!info] Estudio profundo en [[carga-electrica]]
+> Esta sección es el resumen operativo. El tratamiento completo (por qué existen dos signos, simetría gauge U(1) y Noether, conservación **local**, quarks y confinamiento, invariancia relativista y el magnetismo como electricidad en movimiento) vive en [[carga-electrica]].
 
 La carga eléctrica es una propiedad fundamental de la materia que determina las interacciones electromagnéticas. Su unidad en el Sistema Internacional es el coulomb (C), y la carga mínima observable, la **carga elemental,** tiene un valor exacto por definición SI desde 2019:
 
