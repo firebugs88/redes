@@ -6,7 +6,7 @@ relevancia: media
 dominio: física/relatividad
 review-count: 0
 ultimo-review: 2026-08-02
-next-review: 2026-08-03
+next-review: 2026-08-25
 nivel-retencion: 0
 tags:
   - research

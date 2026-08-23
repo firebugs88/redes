@@ -6,7 +6,7 @@ relevancia: baja
 dominio: redes / estándares / historia
 review-count: 0
 ultimo-review: 2026-08-02
-next-review: 2026-08-03
+next-review: 2026-08-26
 nivel-retencion: 0
 tags:
   - research

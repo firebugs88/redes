@@ -6,7 +6,7 @@ relevancia: media
 dominio: física cuántica / electromagnetismo / QED
 review-count: 0
 ultimo-review: 2026-04-09
-next-review: 2026-08-06
+next-review: 2026-08-24
 nivel-retencion: 0
 tags:
   - research
