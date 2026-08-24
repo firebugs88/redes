@@ -6,7 +6,7 @@ relevancia: media
 dominio: física / electromagnetismo / estado sólido
 review-count: 0
 ultimo-review: 2026-06-01
-next-review: 2026-08-18
+next-review: 2026-08-28
 nivel-retencion: 0
 tags:
   - research
