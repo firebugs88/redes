@@ -37,6 +37,8 @@ tags:
 
 - **2026-07-08 · Skills de git añadidas al toolkit.** Tres slash-commands nuevos en `.claude/skills/` — categoría propia harness-level, distinta de las skills de flujo de bóveda (`.agents/skills/`): `revisar-cambios-git` (audita el árbol sin confirmar en busca de secretos/riesgos; solo lectura), `escribir-commit` (mensajes por el porqué + commits atómicos con staging por ruta), `rescate-git` (recupera trabajo perdido sin empeorar el daño). Documentadas en CLAUDE.md → **v5** (línea nueva bajo la tabla de skills). Commits `0146585` (skills) + `8e4dc4c` (updates de plugins Obsidian, ruido separado en su propio commit) + `10a7451` (docs CLAUDE.md), los tres pusheados a `origin/main`. **Working tree limpio.** El porqué del diseño en [[decisiones]].
 
+- **2026-08-24 · Cierre del día (Pausa 3) sin daily.** No existía `daily-notes/2026-08-24.md` (la última es la del 08-01), así que el cierre corrió solo los pasos que no la necesitan. **No se registró ningún repaso** (regla: nunca inventar uno; falta confirmación del usuario sobre qué repasó hoy). **Sí se replanificaron 21 notas**: las 18 atrasadas (18–23 ago) repartidas del 25 al 30 de agosto a ≤4/día — prioridad ① las 7 de `relevancia: alta`, ② el resto media por antigüedad — y las 3 que vencían hoy (`fotones-virtuales`, `la-composicion-de-la-materia-atomos`, `preguntas-clave-onda-electromagnetica`) al 08-31. Resultado verificado: **0 atrasadas, máx. 4/día, sin incoherencias de fecha**, 28 activas + 4 pausadas. `inbox/` vacío y `cosas-por-hacer.md` sin cambios (nada que sincronizar). El porqué del reparto y la señal nueva, en [[patrones]].
+
 ## 🔗 Relacionado
 
 - [[_indice]] · [[decisiones]] · [[900 Índice del Grafo MOC]]

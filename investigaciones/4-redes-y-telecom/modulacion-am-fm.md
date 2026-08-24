@@ -6,7 +6,7 @@ relevancia: media
 dominio: física / telecomunicaciones
 review-count: 0
 ultimo-review: 2026-06-30
-next-review: 2026-08-23
+next-review: 2026-08-30
 nivel-retencion: 0
 tags:
   - research
