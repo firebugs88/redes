@@ -31,7 +31,9 @@ Claude Code ejecuta estos comandos y sustituye cada línea por su salida antes d
 !`git stash list`
 
 **Espacios en blanco y marcadores de conflicto:**
-!`git diff HEAD --check`
+!`git diff HEAD --check -- . ':!.obsidian/plugins' 2>&1 | grep -v '^warning: in the working copy' | cut -c1-200 | head -n 40 || true`
+
+Esto excluye `.obsidian/plugins/` (código minificado regenerado por Obsidian), descarta los avisos LF/CRLF (ruido de `core.autocrlf` en Windows) y recorta las líneas. `--check` sale con código ≠ 0 cuando encuentra problemas; por eso el `|| true`: un hallazgo no es un fallo del comando. Si no hay salida, no hay problemas de espacios ni marcadores de conflicto.
 
 Si esa salida trae errores de git en lugar de datos, probablemente no estás en un repositorio. Dilo y detente.
 
