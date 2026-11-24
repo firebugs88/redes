@@ -33,6 +33,8 @@ tags:
 
 - **2026-07-03 · La deuda de repaso era estructural, no de disciplina.** Sin cupo diario, las 23 notas compiten todas a la vez y la cola explota una y otra vez (21 vencidas el 06-24; 16 el 07-03 — cinco días después de haberla saneado). Respuesta estructural: presupuesto ≤5/día + `review/pausado` para relevancia baja (ver [[decisiones]]). **Señal de vigilancia:** si la cola de un día vuelve a superar ~8 notas, algo está agendando mal (¿notas nuevas todas en el mismo next-review? ¿pausadas reactivadas en bloque?).
 
+- **2026-08-24 · El cuello de botella se movió: ya no es la agenda, es la ejecución.** El cierre del 08-24 encontró 21 notas en cola (18 atrasadas del 18–23 ago + 3 de hoy) **pese a que el presupuesto ≤5/día funcionó**: los días 18–23 estaban bien planificados (3-4 notas/día), simplemente nadie los ejecutó ni los registró. Distinto al fallo del 07-03 (que sí era de agendado). **Corolario operativo:** el usuario estudia en **sesiones episódicas por lotes**, no a diario — entre el 2026-08-01 y el 2026-08-24 no hubo ninguna daily-note, y los repasos reales se registran en tandas (3 notas el 08-23, vía sesión de agente). No diseñes asumiendo cadencia diaria: al cerrar, replanifica el lote acumulado en días consecutivos ≤4 en vez de asumir que el atraso fue excepcional.
+
 ## 🔗 Relacionado
 
 - [[_indice]] · [[preferencias]] · [[900 Índice del Grafo MOC]]

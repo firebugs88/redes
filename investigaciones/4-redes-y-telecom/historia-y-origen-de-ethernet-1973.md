@@ -6,7 +6,7 @@ relevancia: media
 dominio: redes/historia
 review-count: 0
 ultimo-review: 2026-04-12
-next-review: 2026-08-21
+next-review: 2026-08-29
 nivel-retencion: 0
 tags:
   - research

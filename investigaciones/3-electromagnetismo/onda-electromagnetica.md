@@ -6,7 +6,7 @@ relevancia: alta
 dominio: física / electromagnetismo / redes
 review-count: 2
 ultimo-review: 2026-08-02
-next-review: 2026-08-19
+next-review: 2026-08-26
 nivel-retencion: 0
 tags:
   - research
