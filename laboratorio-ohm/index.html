@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Laboratorio interactivo de corriente continua para estudiar la ley de Ohm.">
+  <link rel="icon" href="data:,">
+  <title>Banco de Ohm · Laboratorio virtual 3D</title>
+  <link rel="stylesheet" href="lab.css">
+  <script defer src="vendor/three.min.js"></script>
+  <script defer src="vendor/jspdf.min.js"></script>
+  <script defer src="circuito.js"></script>
+  <script defer src="escena.js"></script>
+  <script defer src="lab.js"></script>
+</head>
+<body>
+  <header class="top">
+    <a href="#inicio" class="brand"><span class="mark" aria-hidden="true">Ω</span><span>Banco de Ohm</span></a>
+    <nav aria-label="Secciones">
+      <a href="#inicio">Banco 3D</a><a href="#graficas">Gráficas</a><a href="#guia">Modo guiado</a><a href="#bitacora">Bitácora</a>
+    </nav>
+    <button id="exportar" class="secondary" type="button">Descargar PDF</button>
+  </header>
+  <main id="inicio">
+    <div class="intro">
+      <div><p class="overline">LABORATORIO DE ELECTRÓNICA</p><h1>Ley de Ohm</h1><p>Conecta el circuito, cambia una variable y observa la respuesta.</p></div>
+      <div class="chip" id="estado" role="status"><span></span><b>Circuito cerrado</b></div>
+    </div>
+    <div class="bench-grid" id="banco-laboratorio" aria-label="Laboratorio interactivo de la Ley de Ohm">
+      <section class="panel stage-panel" aria-label="Banco de trabajo tridimensional">
+        <div class="stage-head">
+          <h2>Mesa de trabajo</h2>
+          <div class="camera-controls" role="group" aria-label="Controles de cámara y vista">
+            <button data-camera="left" type="button" title="Girar a la izquierda" aria-label="Girar a la izquierda">↶</button>
+            <button data-camera="right" type="button" title="Girar a la derecha" aria-label="Girar a la derecha">↷</button>
+            <button data-camera="pan-left" type="button" title="Desplazar vista a la izquierda" aria-label="Desplazar vista a la izquierda">←</button>
+            <button data-camera="pan-right" type="button" title="Desplazar vista a la derecha" aria-label="Desplazar vista a la derecha">→</button>
+            <button data-camera="pan-mode" type="button" aria-pressed="false" title="Arrastra para desplazar la cámara lateralmente">Desplazar</button>
+            <button data-camera="closer" type="button" title="Acercar" aria-label="Acercar">+</button>
+            <button data-camera="farther" type="button" title="Alejar" aria-label="Alejar">−</button>
+            <button data-camera="reset" type="button">Centrar</button>
+            <button id="pantalla-completa" type="button" aria-pressed="false" title="Ampliar laboratorio">Pantalla completa</button>
+          </div>
+        </div>
+        <div id="escena" class="stage">
+          <canvas id="vista" aria-label="Escena del circuito. Arrastra un cable desde un borne a otro. Usa los selectores bajo la vista como alternativa de teclado."></canvas>
+          <p id="error-3d" class="fallback" hidden></p>
+          <div class="stage-caption" aria-live="polite" id="accion-3d">Arrastra el fondo para girar. Usa ← y → para desplazarte.</div>
+        </div>
+        <div class="stage-footer">
+          <label class="compact">Luz ambiental <input id="luz" type="range" aria-label="Luz ambiental" min="20" max="140" value="85"></label>
+          <div class="flow-controls" aria-label="Visualización del flujo de electrones">
+            <label class="toggle"><input id="flujo" type="checkbox" checked> Partículas</label>
+            <label class="toggle"><input id="flechas" type="checkbox" checked> Flechas direccionales</label>
+          </div>
+          <p id="ruta-electrones" class="electron-route" aria-live="polite"></p>
+        </div>
+        <div class="inspect">
+          <label class="inspect-select" for="enfocar">Enfocar
+            <select id="enfocar">
+              <option value="">Banco completo</option><option value="source">Fuente CC</option>
+              <option value="volts">Voltímetro</option><option value="amps">Amperímetro</option>
+              <option value="scope">Osciloscopio</option><option value="resistor">Resistencia</option>
+              <option value="lamp">Bombillo</option>
+            </select>
+          </label>
+          <div id="detalle-equipo" class="inspect-detail" hidden>
+            <div><output id="lectura-equipo"></output><p id="info-equipo"></p></div>
+            <button type="button" id="accion-equipo" class="secondary"></button>
+          </div>
+        </div>
+      </section>
+      <aside class="panel instruments" aria-label="Mandos y lecturas">
+        <div class="instrument-title"><h2>Instrumentos</h2><button id="fuente" class="power-button" type="button" aria-pressed="true" data-state="on">Apagar circuito</button></div>
+        <div class="readings" aria-live="polite">
+          <div class="readout volts"><span>Voltímetro</span><output id="voltimetro">12,000 <small>V</small></output><span id="lectura-sondas">Entre Fuente + y Fuente −</span></div>
+          <div class="readout amps"><span>Amperímetro</span><output id="amperimetro">2,000 <small>A</small></output><span>Corriente total de la fuente</span></div>
+        </div>
+        <div class="control">
+          <label for="voltaje">Voltaje de la fuente <output id="valor-v">12,0 V</output></label>
+          <input type="range" id="voltaje" min="0" max="24" step="0.5" value="12">
+        </div>
+        <div class="control">
+          <label for="resistor">Resistencia intercambiable</label>
+          <select id="resistor"><option value="3">3 Ω</option><option value="6" selected>6 Ω</option><option value="12">12 Ω</option><option value="24">24 Ω</option><option value="48">48 Ω</option><option value="pot">Potenciómetro</option></select>
+          <div id="bandas" class="resistor-display" aria-label="Código de colores"></div>
+        </div>
+        <div class="control" id="pot-control" hidden>
+          <label for="pot">Potenciómetro <output id="valor-pot">6 Ω</output></label>
+          <input type="range" id="pot" min="1" max="48" step="1" value="6">
+        </div>
+        <div class="control bulb-control">
+          <label for="bombillo">Bombillo intercambiable <output id="valor-bombillo">12 V · 3 W</output></label>
+          <select id="bombillo">
+            <option value="5v">Bombillo 5 V · 1 W</option>
+            <option value="12v" selected>Bombillo 12 V · 3 W</option>
+          </select>
+          <div id="estado-bombillo" class="bulb-status" data-state="disconnected" role="status" aria-live="polite">
+            <strong>Sin alimentación</strong><span>Conéctalo a la fuente para probarlo.</span>
+          </div>
+        </div>
+        <div class="formula-box">
+          <div class="formula" aria-label="V igual a I por R equivalente"><span id="formula-v">V</span><b>=</b><span id="formula-i">I</span><b>×</b><span id="formula-r">R<sub>eq</sub></span></div>
+          <output id="ecuacion">12,0 V = 2,000 A × 6,00 Ω</output>
+        </div>
+        <div class="lamp-row"><div id="lampara" class="lamp-info">Bombillo apagado</div><button type="button" id="alternar-bombilla" class="secondary">Conectar bombillo</button></div>
+      </aside>
+    </div>
+    <details class="panel wiring" id="cableado">
+      <summary>Cableado y sondas</summary>
+      <div class="wiring-body">
+        <div>
+          <h3>Conectar un cable</h3>
+          <div class="form-row"><label>Desde <select id="desde"></select></label><label>Hasta <select id="hasta"></select></label><button id="conectar" type="button">Conectar</button></div>
+          <div class="actions"><button class="secondary" id="serie" type="button">Resistencia sola</button><button class="secondary" id="con-bombilla" type="button">Bombillo a la fuente</button></div>
+          <ul id="cables"></ul>
+        </div>
+        <div>
+          <h3>Sondas del voltímetro y osciloscopio</h3>
+          <div class="form-row"><label>Sonda roja <select id="sonda-roja"></select></label><label>Sonda negra <select id="sonda-negra"></select></label></div>
+          <p class="hint">También puedes arrastrar la punta roja o negra desde el borne donde está conectada.</p>
+          <p id="mensaje-cable" class="hint" role="status"></p>
+        </div>
+      </div>
+    </details>
+    <section class="section" id="graficas" aria-labelledby="graficas-title">
+      <div class="section-head"><h2 id="graficas-title">Respuesta del circuito</h2><p>El punto marca el ajuste actual.</p></div>
+      <div class="charts">
+        <article class="panel plot"><h3>Corriente frente a voltaje</h3><p id="cond-v" class="hint"></p><canvas id="graf-v" role="img" aria-label="Corriente frente a voltaje"></canvas></article>
+        <article class="panel plot"><h3>Corriente frente a resistencia</h3><p id="cond-r" class="hint"></p><canvas id="graf-r" role="img" aria-label="Corriente frente a resistencia"></canvas></article>
+        <article class="panel plot scope-plot"><h3>Osciloscopio</h3><p id="cond-s" class="hint">Últimos 8 s · acoplamiento CC</p><canvas id="graf-s" role="img" aria-label="Voltaje de las sondas durante los últimos ocho segundos"></canvas></article>
+      </div>
+    </section>
+    <section class="section" id="guia" aria-labelledby="guia-title">
+      <div class="section-head"><h2 id="guia-title">Modo guiado</h2><p>Predice, comprueba y explica.</p></div>
+      <div class="panel activity">
+        <div class="activity-content">
+          <p id="avance" class="overline">RETO 1 DE 3</p>
+          <h3 id="reto-titulo"></h3><p id="reto-pregunta"></p>
+          <form id="responder">
+            <label for="respuesta">Predicción en amperios</label>
+            <div class="actions"><input type="text" inputmode="decimal" id="respuesta" autocomplete="off" required placeholder="Ej. 1,5"><button class="primary" type="submit">Comprobar</button></div>
+          </form>
+          <p id="feedback" role="status"></p>
+          <div class="actions"><button type="button" class="secondary" id="preparar" disabled>Preparar experimento</button><button type="button" id="verificar" hidden>Verificar experimento</button><button type="button" class="secondary" id="siguiente" disabled>Siguiente reto</button></div>
+        </div>
+        <div class="activity-side"><span aria-hidden="true">Ω</span><p id="paso-practico">Primero haz tu predicción. Luego reproduce el experimento en el banco 3D.</p></div>
+      </div>
+    </section>
+    <section class="section" id="bitacora" aria-labelledby="bitacora-title">
+      <div class="section-head"><h2 id="bitacora-title">Bitácora experimental</h2><span id="conteo" class="hint" role="status">0 mediciones</span></div>
+      <div class="panel notebook">
+        <div class="form-row"><label>Estudiante <input id="estudiante" maxlength="65" placeholder="Nombre (opcional)"></label><label class="observation">Observación <input id="observacion" maxlength="180" placeholder="Ej. Duplicar R redujo I a la mitad"></label><button class="primary" type="button" id="registrar">Registrar lectura</button><button class="secondary" type="button" id="exportar-bitacora">Descargar informe</button></div>
+        <div class="table-wrap"><table><thead><tr><th scope="col">Hora</th><th scope="col">Fuente</th><th scope="col">R ajustada</th><th scope="col">I total</th><th scope="col">V sondas</th><th scope="col">Circuito / observación</th><th scope="col"><span class="sr-only">Acciones</span></th></tr></thead><tbody id="mediciones"></tbody></table></div>
+        <p id="mensaje-pdf" class="hint" role="status"></p>
+      </div>
+    </section>
+    <footer>Modelo ideal de corriente continua. El portalámparas didáctico bloquea la alimentación fuera de la tolerancia de ±10 % de los bombillos de 5 V y 12 V. El movimiento de los electrones está ampliado.</footer>
+  </main>
+</body>
+</html>
