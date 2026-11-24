@@ -29,5 +29,15 @@ Este mapa centraliza la evolución y los protocolos de las redes de datos, desde
 - [[internet|Historia del Internet]]
 - [[nsfnet|NSFNET (El sucesor civil)]]
 
+## 📚 Recursos de apoyo
+
+### Protocolos e Internet
+- [[historia-y-evolucion-del-internet-arpanet|Historia y evolución de Internet — ARPANET]]
+- [[Modelo TCP_IP_ Proceso de Solicitud Web.pdf|Modelo TCP/IP — Proceso de solicitud web]]
+- [[Evolución histórica de los protocolos TCP_IP (1969 - perplexity.pdf|Evolución histórica de los protocolos TCP/IP]]
+
+### Capa física y transmisión
+- [[Codificación 4B_5B + MLT-3 en 100BASE-TX_ Análisis_perplexity.pdf|Análisis de 4B/5B y MLT-3 en 100BASE-TX]]
+
 ---
 [[000 Home MOC|⬅️ Volver al Inicio]]

@@ -21,9 +21,8 @@ tags:
 
 ### **Mi definición en una frase:**
 
-> [!important] La carga eléctrica es la **propiedad primitiva de la materia que decide si una partícula participa (y con qué signo) en la interacción electromagnética**: un número que solo aparece en múltiplos enteros de $e$, que nunca se crea ni se destruye, y que es el mismo en todos los sistemas de referencia.
 
-> [!important] La carga eléctrica **no es una sustancia ni un fluido**: es una **propiedad fundamental de la materia**, como la masa.
+> [!important] La carga eléctrica **no es una sustancia ni un fluido**: es una **propiedad fundamental de la materia**, como la masa. **decide si una partícula participa (y con qué signo) en la interacción electromagnética**: un número que solo aparece en múltiplos enteros de 𝑒, que nunca se crea ni se destruye, y que es el mismo en todos los sistemas de referencia.
 
 > [!important] No podemos decir “está hecha de…” porque no está hecha de algo más básico. La definimos por sus efectos:
 > - Las cargas ejercen fuerzas entre sí.

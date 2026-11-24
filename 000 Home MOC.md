@@ -9,7 +9,7 @@ Bienvenido a tu centro de control de conocimientos. Este mapa organiza tus inves
 Accede a los nodos centrales de cada disciplina:
 
 - [[010 Redes y Telecomunicaciones MOC|🌐 Redes y Telecomunicaciones]]
-- [[020 Física y Electromagnetismo MOC|⚡ Física y Electromagnetismo]]
+- [[020 Física y Electromagnetismo MOC|⚡ Fundamentos de Electricidad y Circuitos Eléctricos]]
 
 ---
 
@@ -23,6 +23,9 @@ Accede a los nodos centrales de cada disciplina:
 - [[antena-wifi-tarro-papas|Antena de tarro de papas]]
 - [[frecuencia-mlt3-longitud-onda-cobre|Frecuencia MLT-3 y Cobre]]
 - [[palabras-clave-como-repaso-activo|Palabras clave como recuperación activa]]
+
+## 📚 Recursos Compartidos
+- [[metodologias-de-aprendizaje|Metodologías de aprendizaje]]
 
 ---
 > "La información aislada es ruido; la información conectada es conocimiento."

@@ -39,9 +39,9 @@ Todo lo que hagas debe pasar por este filtro: **¿esto me ayuda a aprender de ve
 | `ideas/` | Ideas sin proyecto asignado | Según necesidad |
 | `inbox/` | Material pendiente de procesar | Punto de entrada |
 | `templates/` | Plantillas base (no editar directamente) | Referencia |
-| `recursos/` | Material de consulta, cheatsheets, referencia estática | Referencia |
+| `recursos/` | Material de consulta clasificado por materia y función | Referencia |
 | `Excalidraw/` | Diagramas y dibujos del plugin Excalidraw | Según necesidad |
-| `imagenes/` | Imágenes incrustadas en las notas de estudio (capturas, diagramas, apuntes escaneados) | Según necesidad |
+| `imagenes/` | Imágenes incrustadas, separadas por materia y recursos compartidos | Según necesidad |
 | `meta/` | Memoria progresiva del agente (`meta/memoria-agente/`). Curable por ti. | Referencia |
 | `archivo/` | Notas degradadas/archivadas por el decantador. Reversible: nada se borra. | Según necesidad |
 
@@ -59,13 +59,27 @@ Las notas de investigación NO van sueltas en la raíz de `investigaciones/`: va
 > [!warning] Regla de clasificación
 > Al crear una nota de research, elige la subcarpeta que mejor corresponda. Si ninguna encaja, **pregúntame** antes de crear una subcarpeta nueva (mantén el prefijo numérico correlativo: `5-...`).
 
+### Subcarpetas de `recursos/` e `imagenes/`
+
+| Ruta | Contenido |
+|------|-----------|
+| `recursos/electricidad-y-circuitos/fundamentos-y-circuitos/` | Teoría eléctrica, magnitudes, leyes y análisis de circuitos |
+| `recursos/electricidad-y-circuitos/electromagnetismo/` | Campos, ondas y espectro electromagnético |
+| `recursos/electricidad-y-circuitos/anki/` | Tarjetas de repaso de electricidad y electromagnetismo |
+| `recursos/redes/protocolos-e-internet/` | TCP/IP, arquitectura e historia de Internet |
+| `recursos/redes/capa-fisica-y-transmision/` | Codificación, señalización y transmisión física |
+| `recursos/compartidos/` | Metodologías y material útil para ambas materias |
+| `imagenes/electricidad-y-circuitos/` | Imágenes de teoría eléctrica, circuitos y electromagnetismo |
+| `imagenes/redes/` | Diagramas de redes, modulación, Ethernet y señalización |
+| `imagenes/compartidas/` | Recursos visuales metodológicos |
+
 ### Archivos en raíz (Estructura MOC)
 
 | Archivo | Propósito |
 |---------|-----------|
 | `000 Home MOC.md` | Punto de entrada principal y navegación global |
 | `010 Redes y Telecomunicaciones MOC.md` | Mapa de contenido de redes |
-| `020 Física y Electromagnetismo MOC.md` | Mapa de contenido de física |
+| `020 Física y Electromagnetismo MOC.md` | Mapa de Fundamentos de Electricidad y Circuitos Eléctricos; conserva el nombre de archivo para no romper enlaces |
 | `050 Diario MOC.md` | Índice de notas diarias |
 | `cosas-por-hacer.md` | Tareas de estudio/proyecto pendientes, organizadas por urgencia (no agenda personal) |
 

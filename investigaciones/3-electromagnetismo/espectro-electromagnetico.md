@@ -1,5 +1,6 @@
 ---
 type: research
+fuente: Síntesis de tres recursos locales sobre ondas y espectro electromagnético (Gemini, Perplexity e investigación histórica)
 fecha: 2026-06-01
 relevancia: media
 dominio: física / electromagnetismo

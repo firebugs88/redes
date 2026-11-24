@@ -1,5 +1,6 @@
 ---
 type: research
+fuente: Síntesis de un recurso local sobre ondas electromagnéticas y publicaciones de LIGO sobre GW150914 y GW170817
 fecha: 2026-06-01
 relevancia: baja
 dominio: física/relatividad

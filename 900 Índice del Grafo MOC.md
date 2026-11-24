@@ -1,6 +1,6 @@
 ---
 type: indice-grafo
-generado: 2026-08-14
+generado: 2026-09-19
 generado-por: skill indexador-grafo
 nota: Archivo GENERADO AUTOMÁTICAMENTE. No editar a mano — se regenera con la skill `indexador-grafo`.
 tags:
@@ -134,7 +134,11 @@ Formato de cada entrada: `[[nota]] :: resumen` y debajo `→ vecinos`.
 
 ## 📚 Material fuente (recursos/, no son nodos del grafo conceptual)
 
-Documentos en bruto de los que se destilaron las notas anteriores: `recursos/historia-y-evolucion-del-internet-arpanet.md`, `recursos/Investigación Profunda del Voltaje Eléctrico.md`, `recursos/Investigación Onda Electromagnética Universitaria - gemini.md`, `recursos/Ondas electromagnéticas - naturaleza, historia y frontera tecnológica.md`, `recursos/ondas-electromagneticas-ppxty.md`, `recursos/metodologias-de-aprendizaje.md`, `recursos/las simetrías globales.md`. Consultar solo si la nota destilada no basta.
+- **Electricidad y circuitos:** `recursos/electricidad-y-circuitos/fundamentos-y-circuitos/`, `recursos/electricidad-y-circuitos/electromagnetismo/` y `recursos/electricidad-y-circuitos/anki/`.
+- **Redes:** `recursos/redes/protocolos-e-internet/` y `recursos/redes/capa-fisica-y-transmision/`.
+- **Compartidos:** `recursos/compartidos/`.
+
+Consultar este material en bruto solo cuando la nota destilada no sea suficiente.
 
 ---
 

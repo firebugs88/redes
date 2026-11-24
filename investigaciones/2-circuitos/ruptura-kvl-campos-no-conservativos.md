@@ -1,6 +1,6 @@
 ---
 type: research
-fuente: recursos/Investigación Profunda del Voltaje Eléctrico.md
+fuente: recursos/electricidad-y-circuitos/fundamentos-y-circuitos/Investigación Profunda del Voltaje Eléctrico.md
 fecha: 2026-06-01
 relevancia: media
 dominio: física/electromagnetismo
