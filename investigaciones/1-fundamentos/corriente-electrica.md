@@ -193,6 +193,36 @@ Las pérdidas en transmisión por efecto Joule son P_pérdida = I²R_línea = P�
 
 La DC conserva ventajas propias: almacenamiento de energía en baterías, compatibilidad directa con electrónica (procesadores, LEDs, circuitos integrados funcionan internamente con DC a 1,2–48 V), ausencia de reactancia, potencia reactiva y efecto skin, y menor interferencia electromagnética.
 
+#### 🧒 Explicado como para primaria: la manguera, la hidrolavadora y el diapasón
+
+> [!info] Añadido en el repaso del 2026-11-24
+> Durante el repaso identifiqué bien que el transformador fue la pieza clave, pero me faltaba la cadena completa del *porqué*. Esta es esa cadena en 3 eslabones, con el mismo modelo de agua de esta nota (voltaje = presión, corriente = cantidad de agua que pasa).
+
+**Eslabón 1 — El cable largo "se come" la energía por roce.** Imaginá que tenés que mandarle agua a un pueblo lejano por una manguera de kilómetros. El agua roza las paredes y ese roce se convierte en calor que se pierde por el camino. La trampa: si mandás el **doble** de agua, el roce no se duplica, se **cuadruplica** ($P_{pérdida} = I^2 R$). Mucha corriente = desastre.
+
+**Eslabón 2 — Truco: poca agua, pero empujada con muchísima fuerza.** La energía que llevás es *presión × cantidad* ($P = V \cdot I$). Podés llevar la misma energía con poquita agua si la empujás con una presión enorme, como una **hidrolavadora**. Ejemplo: 1000 W a 100 V necesitan 10 A; a 10 000 V solo 0,1 A. Corriente 100 veces menor → calor perdido **10 000 veces menor**. Pero nadie puede tener una hidrolavadora de 10 000 V en la cocina: en casa hay que **bajar** la presión otra vez, por seguridad.
+
+**Eslabón 3 — La máquina que sube y baja la presión solo funciona con vaivén.** Esa máquina es el **transformador** (ver la sección "El Tercer Pilar: El Transformador" más abajo, en "El Loop Infinito"). Sus dos bobinas no se tocan: la primera "le habla" a la segunda a través de un campo magnético, y la segunda **solo escucha los cambios** de ese campo (ley de Faraday). Es como el diapasón: si el primero **vibra**, el segundo vibra también; si solo lo empujás fuerte y lo dejás quieto, el segundo no se entera. La **AC** es un vaivén permanente → el transformador trabaja todo el tiempo. La **DC** es un empuje quieto → campo constante → la segunda bobina no recibe nada.
+
+**Conclusión:** Edison (DC) no podía subir la tensión para viajar lejos, así que necesitaba una central cada ~1,6 km. Westinghouse y Tesla (AC) subían la tensión con un transformador, cruzaban decenas de kilómetros con pocas pérdidas y la bajaban en la puerta de cada casa. **No ganó porque la AC fuera "más fuerte", sino porque era la única que se dejaba transformar con una máquina simple, barata y sin piezas móviles.**
+
+> [!warning] Dónde se rompen las analogías
+> - **Manguera:** en un cable real los electrones no "rozan paredes"; chocan con la red de iones del metal (efecto Joule, ver la analogía del túnel al inicio). Lo que sí es exacto es la regla: pérdida ∝ corriente².
+> - **"DC no transmite nada":** al **conectar o desconectar** una batería el campo sí cambia un instante, y aparece un pulso breve en la secundaria. Lo que no existe es transferencia **continua**. Además, una bobina primaria con DC se comporta casi como un cortocircuito (solo la resistencia del cobre) y se recalienta.
+> - **"La DC nunca puede cambiar de tensión":** falso hoy. La electrónica de potencia moderna (convertidores, ver HVDC abajo) sí lo logra; en 1890 esa tecnología no existía. Por eso la victoria de la AC fue histórica y tecnológica, no una ley eterna.
+
+**🧠 Mini-Cornell de este repaso**
+
+| 🔑 Pregunta / Clave | 📝 Respuesta / Desarrollo |
+|---|---|
+| ¿Por qué conviene transmitir a alta tensión y baja corriente? | Para la misma potencia ($P = VI$), menos corriente significa muchísimas menos pérdidas, porque el calor perdido crece con el cuadrado de la corriente ($I^2R$). |
+| ¿Por qué un transformador no funciona con DC? | Funciona por inducción: la secundaria solo recibe tensión cuando el campo magnético **cambia**. La DC crea un campo constante → no hay inducción continua. |
+| ¿Por qué hay que bajar la tensión antes de llegar a casa? | Por seguridad y aislamiento: cientos de kV serían letales y exigirían aislantes enormes; se baja a 120/230 V en transformadores cercanos al consumidor. |
+| ¿Cuál fue la razón real de la derrota de Edison? | Sin forma práctica de elevar la tensión en DC, sus pérdidas obligaban a una central cada ~1,6 km; la AC, con transformadores, cubría largas distancias desde una sola central (Niágara → Buffalo, 1896). |
+
+> [!tip] Feynman en 3 frases
+> Mandar electricidad lejos es como mandar agua por una manguera larguísima: si mandás mucha, se pierde casi toda calentando el camino, así que conviene mandar poquita empujada con muchísima fuerza. Pero en casa esa fuerza sería peligrosa, y hace falta una máquina que la suba al salir y la baje al llegar. Esa máquina solo funciona si la electricidad va y viene sin parar (alterna), y por eso la alterna le ganó a la continua.
+
 ### HVDC: el renacimiento moderno de la corriente continua
 
 Pese al triunfo histórico de la AC, la tecnología **HVDC** (High Voltage Direct Current) ha experimentado un renacimiento notable. Para cables submarinos de más de 40–60 km, la AC genera corrientes capacitivas excesivas que hacen la transmisión impráctica; la DC elimina este problema. En líneas aéreas de más de 500–900 km, las pérdidas HVDC son un 30–40% menores que las de AC. La tecnología también permite interconectar redes de diferente frecuencia (50 Hz ↔ 60 Hz) y ofrece control preciso del flujo de potencia.
