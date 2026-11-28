@@ -12,4 +12,5 @@ metadata:
 
 ## Preguntas de repaso ya usadas (para variarlas)
 
+- [[corriente-electrica]] (efecto Joule, filamento de bombilla, nivel "niño de 8 años") · 2026-11-27: "¿Por qué el cable de cobre que lleva la corriente a la bombilla no brilla, si por él pasan las mismas moscas que por el filamento?" (respuesta esperada: misma I en serie, pero cobre de ρ bajísima y grueso → R pequeña → Q = I²Rt pequeño). Próxima vez variar: por qué la resistencia del metal sube al calentarse (pilares que vibran más).
 - [[voltaje]] · 2026-08-02: "Una batería de 1.5V — ¿qué significa ese número en términos de energía por carga?" (falló) → seguimiento: por qué una AAA y una D dan ambas 1.5V.

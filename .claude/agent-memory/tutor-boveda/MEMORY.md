@@ -1,1 +1,2 @@
 - [Temas frecuentes y confusiones del usuario](user_temas_frecuentes.md) — qué vuelve a preguntar, y qué preguntas de repaso ya usé por nota
+- [Notas con huecos detectados](project_notas_a_revisar.md) — Joule sin nota propia; tungsteno/incandescencia no documentados
