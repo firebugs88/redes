@@ -845,6 +845,8 @@ Analogía: Piedras o estrechamientos dentro de la tubería.
 
 ## 🔗 Relacionado
 
+- [[voltaje]] — la diferencia de potencial que causa la corriente; incluye el guion infantil "¡El Empujón y el Desfile!" (voltaje = tobogán, corriente = desfile)
+- [[resistencia]] — la oposición al flujo que completa la trinidad V/I/R (Ley de Ohm)
 - [[fotones-virtuales]] — los fotones virtuales son los mediadores del campo electromagnético que sustenta la corriente
 - [[la-composicion-de-la-materia-atomos]] — base física fundamental: estructura atómica y comportamiento de los electrones
 - [[la-corriente-electrica-en-el-hogar]] — aplicación práctica: el recorrido de la corriente desde la central hasta el enchufe
