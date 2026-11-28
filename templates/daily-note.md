@@ -23,7 +23,7 @@ status: In Progress
 2. 
 3. 
 
-### 🔁 Repasos de hoy (presupuesto: máx. 5)
+### 🔁 Repasos de hoy (presupuesto: máx. 3)
 
 > [!warning] Solo lo que entra en el cupo de hoy. Lo que no alcance NO se acumula como culpa: la Pausa 3 lo replanifica.
 

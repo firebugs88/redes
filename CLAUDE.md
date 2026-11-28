@@ -105,7 +105,7 @@ Cada pausa del ritual diario tiene una skill dueña; el resto son mantenimiento 
 
 | Skill | Rol |
 |-------|-----|
-| `generador-daily` | ☀️ Pausa 1: crea la daily con objetivos Pareto + repasos del día (presupuesto máx. 5) |
+| `generador-daily` | ☀️ Pausa 1: crea la daily con objetivos Pareto + repasos del día (presupuesto máx. 3) |
 | `cierre-del-dia` | 🌙 Pausa 3: registra repasos en las notas, replanifica sin culpa, procesa capturas |
 | `procesador-inbox` | Clasifica `inbox/` a su carpeta destino (sin forzar) |
 | `investigador-profundo` | Crea notas de research completas (con chequeo anti-duplicado previo) |
@@ -165,7 +165,7 @@ Skills de git (`.claude/skills/`): utilidades del flujo con git, operan sobre el
 
 1. **Cornell:** Toda nota de `investigaciones/` lleva tabla `🔑 Pregunta/Clave | 📝 Desarrollo`. **Nunca dejes el resumen vacío:** si no puedes resumirlo, no lo entendiste.
 2. **Pareto (80/20):** Máx. 3 objetivos por daily; resumen de research = 3-5 ideas clave, no un volcado. Lo que no pasa el filtro, baja de prioridad o se elimina.
-3. **Repetición espaciada (realista, 2 niveles + presupuesto):** Al crear una nota de research, fija `next-review` al día siguiente — **eso es lo único no negociable** (el primer repaso es el que más rinde). Después usa la escalera **mínima sostenible: Día 1 → 7 → 30** (3 toques). La escalera completa (1 → 3 → 7 → 14 → 30 → 60) es **opcional** y solo se justifica en conceptos `#prioridad/alta`. **Presupuesto de repaso: máx. 5 notas/día (objetivo 3).** Prioridad al asignar el cupo: ① `relevancia: alta` atrasadas, ② hubs ⭐ del índice del grafo, ③ resto por antigüedad. Lo que no entra en el cupo se **replanifica sin culpa** (se corre `next-review` a días con cupo libre): la deuda se gestiona, no se acumula. Las notas `relevancia: baja` **no compiten por el cupo**: tras su Día 1 pasan a `#review/pausado` — el grafo las conserva localizables; memorizarlo todo es anti-Pareto. `nivel-retencion` registra el **escalón consolidado de la escalera** (0 = ninguno · 1 = Día 1 superado · 2 = Día 7 · 3 = Día 30 → candidata a `#review/dominado`). Marca `#review/pendiente` / `#review/dominado`. Si un mes no repasaste, no acumules deuda: relee y reinicia desde Día 1.
+3. **Repetición espaciada (realista, 2 niveles + presupuesto):** Al crear una nota de research, fija `next-review` al día siguiente — **eso es lo único no negociable** (el primer repaso es el que más rinde). Después usa la escalera **mínima sostenible: Día 1 → 7 → 30** (3 toques). La escalera completa (1 → 3 → 7 → 14 → 30 → 60) es **opcional** y solo se justifica en conceptos `#prioridad/alta`. **Presupuesto de repaso: máx. 3 notas/día.** (Bajado desde 5 el 2026-11-24 por carga de trabajo real — ver [[preferencias]] en `meta/memoria-agente/`; no lo subas sin que el usuario lo pida.) Prioridad al asignar el cupo: ① `relevancia: alta` atrasadas, ② hubs ⭐ del índice del grafo, ③ resto por antigüedad. Lo que no entra en el cupo se **replanifica sin culpa** (se corre `next-review` a días con cupo libre): la deuda se gestiona, no se acumula. Las notas `relevancia: baja` **no compiten por el cupo**: tras su Día 1 pasan a `#review/pausado` — el grafo las conserva localizables; memorizarlo todo es anti-Pareto. `nivel-retencion` registra el **escalón consolidado de la escalera** (0 = ninguno · 1 = Día 1 superado · 2 = Día 7 · 3 = Día 30 → candidata a `#review/dominado`). Marca `#review/pendiente` / `#review/dominado`. Si un mes no repasaste, no acumules deuda: relee y reinicia desde Día 1.
 4. **Loci:** Obligatorio solo para conceptos `#prioridad/alta`. Usa la tabla `🏛 Anclas de memoria` con imágenes vívidas/exageradas.
 5. **Feynman:** Si no puedes explicar la idea central en 3 frases sin jerga, la nota no está completa. Marca huecos con `❓` y `#feynman/pendiente`.
 
@@ -198,7 +198,7 @@ Cada pausa tiene una **skill dueña**: si la pausa no ocurre sola, se invoca la 
 ☀️ Pausa 1 — Revisión matutina (5-10 min) · skill: generador-daily
 ├── Crear/abrir la daily-note del día
 ├── Definir 1-3 objetivos (Pareto)
-└── Repasos de hoy: máx. 5 notas (presupuesto — regla 3 de metodologías)
+└── Repasos de hoy: máx. 3 notas (presupuesto — regla 3 de metodologías)
 
 ✍️ Pausa 2 — Captura rápida (durante el día, sin fricción)
 ├── Capturar en inbox/ o en la daily-note SIN clasificar

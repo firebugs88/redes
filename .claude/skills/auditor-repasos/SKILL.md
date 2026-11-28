@@ -64,7 +64,7 @@ Este skill escanea las notas de investigación y genera reportes de repetición 
 ```markdown
 # 📅 Reporte de Repasos — YYYY-MM-DD
 
-## 🎯 Plan de hoy (presupuesto: máx. 5 — regla 3 de CLAUDE.md)
+## 🎯 Plan de hoy (presupuesto: máx. 3 — regla 3 de CLAUDE.md)
 
 | # | Nota | Por qué entra en el cupo |
 |---|------|--------------------------|
@@ -106,4 +106,4 @@ Este skill escanea las notas de investigación y genera reportes de repetición 
 - **No modifiques ninguna nota** — solo genera el reporte.
 - Sé conciso pero completo: incluye TODAS las notas escaneadas en alguna categoría.
 - Ordena las atrasadas por días de atraso (más atrasada primero).
-- El "Plan de hoy" respeta el presupuesto (máx. 5): prioriza ① `relevancia: alta` atrasadas, ② hubs ⭐ del `900 Índice del Grafo MOC.md`, ③ resto por antigüedad. El excedente se propone replanificar — la deuda se gestiona, no se exhibe como culpa.
+- El "Plan de hoy" respeta el presupuesto (máx. 3): prioriza ① `relevancia: alta` atrasadas, ② hubs ⭐ del `900 Índice del Grafo MOC.md`, ③ resto por antigüedad. El excedente se propone replanificar — la deuda se gestiona, no se exhibe como culpa.

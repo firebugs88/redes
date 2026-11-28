@@ -40,7 +40,7 @@ Este skill ejecuta la **Pausa 3** del ritual diario: convierte lo que pasó dura
 - Agrega/completa la fila correspondiente en la tabla `## 🔁 Registro de repasos` de la nota (fecha + resultado).
 
 ### Paso 3: Replanificar lo que no alcanzó (sin culpa)
-- Notas con `next-review` ≤ hoy que NO se repasaron: corre su `next-review` a los próximos días **respetando el presupuesto de máx. 5 notas/día** (cuenta también las ya agendadas en esos días).
+- Notas con `next-review` ≤ hoy que NO se repasaron: corre su `next-review` a los próximos días **respetando el presupuesto de máx. 3 notas/día** (cuenta también las ya agendadas en esos días).
 - Prioridad al reasignar cupos: ① `relevancia: alta` atrasadas, ② hubs ⭐ del `900 Índice del Grafo MOC.md`, ③ resto por antigüedad.
 - Ignora las notas con tag `review/pausado` (están fuera de la cola).
 - Regla de deuda (CLAUDE.md): si una nota lleva +30 días sin repaso, no la replanifiques como si nada — márcala "releer y reiniciar desde Día 1".
@@ -62,7 +62,7 @@ Este skill ejecuta la **Pausa 3** del ritual diario: convierte lo que pasó dura
 - Si hubo notas nuevas, movidas o con enlaces cambiados → sugiere regenerar el índice con `indexador-grafo`.
 
 ### Paso 8: Cierre
-- Reporta en ≤5 líneas: repasos registrados (con su resultado), replanificaciones, capturas procesadas, y qué toca mañana (máx. 5 repasos).
+- Reporta en ≤5 líneas: repasos registrados (con su resultado), replanificaciones, capturas procesadas, y qué toca mañana (máx. 3 repasos).
 - Marca `status: Done` en el frontmatter de la daily.
 
 ---
@@ -86,7 +86,7 @@ Escalera mínima sostenible: **Día 1 → Día 7 → Día 30**. Completa (solo `
 - Usa `[[doble corchete]]`, fechas `YYYY-MM-DD`, tags de frontmatter sin `#`.
 - NUNCA sobrescribas contenido de la daily: solo completa lo vacío y marca checkboxes confirmados.
 - No toques notas `review/pausado` ni `review/dominado` (salvo que el usuario pida reactivarlas).
-- El presupuesto de 5/día es un TECHO, no una meta: si el usuario solo pudo con 2, está bien — replanifica el resto sin comentarios de culpa.
+- El presupuesto de 3/día es un TECHO, no una meta: si el usuario solo pudo con 1 o 2, está bien — replanifica el resto sin comentarios de culpa.
 - Coherencia de fechas: `ultimo-review` jamás en el futuro; `next-review` jamás anterior a `ultimo-review` (error recurrente detectado en [[patrones]]).
 
 ---

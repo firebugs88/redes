@@ -35,7 +35,7 @@ Este skill automatiza la creación de la nota diaria integrando repasos pendient
 ### Paso 3: Escanear repasos del día (con presupuesto)
 - Lee el frontmatter de TODAS las notas en `investigaciones/` y subcarpetas.
 - Busca notas donde `next-review` ≤ fecha de hoy (hoy o atrasadas), **excluyendo** las que tengan tag `review/pausado`.
-- Selecciona **máx. 5** para la daily (presupuesto de CLAUDE.md, regla 3): ① `relevancia: alta` atrasadas, ② hubs ⭐ del `900 Índice del Grafo MOC.md`, ③ resto por antigüedad.
+- Selecciona **máx. 3** para la daily (presupuesto de CLAUDE.md, regla 3): ① `relevancia: alta` atrasadas, ② hubs ⭐ del `900 Índice del Grafo MOC.md`, ③ resto por antigüedad.
 - Lista SOLO esas en la sección de repasos con enlaces `[[nota]]`. Si quedaron más fuera, indícalo en una línea ("+N replanificables — corre `auditor-repasos` para el detalle"), sin listarlas una a una.
 
 ### Paso 4: Revisar daily-note anterior
